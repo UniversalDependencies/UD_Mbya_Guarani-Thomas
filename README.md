@@ -4,7 +4,7 @@ UD Mbya_Guarani-Thomas is a corpus of Mbyá Guaraní (Tupian) texts collected by
 
 # Introduction
 
-UD Mbya_Guarani-Dooley is a corpus of Mbyá Guaraní (Tupian) texts collected by Guillaume Thomas. The current version of the corpus consists of three speeches by Paulina Núñez Romero, a Mbyá Guaraní speaker from Paraguay. These speeches were recorded in August 2017 in the Mbyá Guaraní community Ytu, Caazapá Department, Paraguay. They were transcribed by Ronaldi Recalde Centurion (Ytu community) and translated into Brazilian Portuguese by Alberto Álvares. The texts were interlinearized in SIL FieldWorks Language Explorer (Black and Simons 2006) and manually annotated in UD in Arborator (Gerdes 2013) by Guillaume Thomas. Features were converted automatically from the morphological glosses added in SIL FieldWorks Language Explorer.
+UD Mbya_Guarani-Thomas is a corpus of Mbyá Guaraní (Tupian) texts collected by Guillaume Thomas. The current version of the corpus consists of three speeches by Paulina Núñez Romero, a Mbyá Guaraní speaker from Paraguay. These speeches were recorded in August 2017 in the Mbyá Guaraní community Ytu, Caazapá Department, Paraguay. They were transcribed by Ronaldi Recalde Centurion (Ytu community) and translated into Brazilian Portuguese by Alberto Álvares. The texts were interlinearized in SIL FieldWorks Language Explorer (Black and Simons 2006) and manually annotated in UD in Arborator (Gerdes 2013) by Guillaume Thomas. Features were converted automatically from the morphological glosses added in SIL FieldWorks Language Explorer.
 
 
 # Acknowledgments

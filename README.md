@@ -8,7 +8,7 @@ UD Mbya_Guarani-Thomas is a corpus of Mbyá Guaraní (Tupian) texts collected by
 
 Consider using the development version of the corpus, which contains the latest improvements, while the official release is updated every 6 months:
 
-	https://github.com/UniversalDependencies/UD_Mbya_Guarani-Thomas/tree/dev
+* https://github.com/UniversalDependencies/UD_Mbya_Guarani-Thomas/tree/dev
 
 # Acknowledgments
 

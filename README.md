@@ -1,18 +1,21 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) ...
+UD Mbya_Guarani-Dooley is a corpus of Mbyá Guaraní (Tupian) texts collected by Guillaume Thomas. The current version of the corpus consists of three speeches by Paulina Kerechu Núñez Romero, a Mbyá Guaraní speaker from the Ytu community in Paraguay.
 
 # Introduction
 
-...
+UD Mbya_Guarani-Dooley is a corpus of Mbyá Guaraní (Tupian) texts collected by Guillaume Thomas. The current version of the corpus consists of three speeches by Paulina Núñez Romero, a Mbyá Guaraní speaker from Paraguay. These speeches were recorded on 03/08/17 in the Mbyá Guaraní community Ytu, Caazapá Department, Paraguay. They were transcribed by Ronaldi Recalde Centurion (Ytu community) and translated into Brazilian Portuguese by Alberto Álvares. The texts were interlinearized in SIL Fieldworks (Black and Simons 2006) and annotated in UD in Arborator (Gerdes 2013) by Guillaume Thomas. Features were converted automatically from the morphological glosses added in SIL Fieldworks.
+
 
 # Acknowledgments
 
-...
+The development of the corpus was supported by a Connaught New Researcher Award to Guillaume Thomas at the University of Toronto.
 
 ## References
 
-* (citation)
+* Andrew Black and Gary Simons. 2006. The SIL FieldWorks Language Explorer Approach to Morphological Parsing. Computational Linguistics for Less studied Languages: Texas Linguistics Society, 10. SIL.
+
+* Kim Gerdes, 2013. Collaborative dependency annotation. In Journal Proceedings of the second international conference on dependency linguistics (DepLing 2013), 88-97.
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================

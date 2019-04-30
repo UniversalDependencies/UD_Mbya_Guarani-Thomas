@@ -27,7 +27,7 @@ Lemmas: converted from manual
 UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
-Relations: manual
+Relations: manual native
 Contributors: Thomas, Guillaume
 Contributing: elsewhere
 Contact: guillaume.thomas@utoronto.ca

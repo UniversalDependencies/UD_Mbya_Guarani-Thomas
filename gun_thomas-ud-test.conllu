@@ -203,15 +203,15 @@
 7	che	che	PRON	pro	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	1.SG
 8	amombe'u	mombe'u	VERB	vt	Person[subj]=1|Subcat=Tran	0	root	_	A1.SG-tell
 9	mba'e	mba'e	PRON	interpron	PronType=Int	12	obj	_	what
-10	pa	pa	PART	illocprt	_	9	discourse:q	_	Q
+10	pa	pa	PART	qprt	_	9	discourse:q	_	Q
 11	che	che	PRON	pro	Number=Sing|Person=1|PronType=Prs	12	nsubj	_	1.SG
-12	ajapo	apo	VERB	vt	Person[obj]=3|Person[subj]=1|Subcat=Tran	8	obj	_	A1.SG-B3-do
+12	ajapo	apo	VERB	vt	Person[subj]=1|Subcat=Tran	8	obj	_	A1.SG-B3-do
 13	ra'e	ra'e	PART	illocprt	_	12	advmod	_	MIR
 14	,	,	PUNCT	punct	_	18	punct	_	_
 15	mba'e	mba'e	DET	interpron	PronType=Int	16	det	_	what
 16	tembiapo	embiapo	NOUN	n	_	18	obj	_	NPOSSD-NMLZ-do
-17	pa	pa	PART	illocprt	_	16	discourse:q	_	Q
-18	ajapo	apo	VERB	vt	Person[obj]=3|Person[subj]=1|Subcat=Tran	12	conj	_	A1.SG-B3-do
+17	pa	pa	PART	qprt	_	16	discourse:q	_	Q
+18	ajapo	apo	VERB	vt	Person[subj]=1|Subcat=Tran	12	conj	_	A1.SG-B3-do
 19	.	.	PUNCT	punct	_	18	punct	_	_
 
 # sent_id = 18
@@ -228,10 +228,10 @@
 
 # sent_id = 19
 # text = Ndoroikuaavei ma mamo pa roo ta , ka'aguy gui rogueru ro'u va'erã .
-1	Ndoroikuaavei	kuaa	VERB	vt	Clusivity[subj]=Ex|Person[obj]=3|Person[subj]=1|Polarity=Neg|Subcat=Tran	0	root	_	NEG-A1.EXCL-B3-know-more-NEG
+1	Ndoroikuaavei	kuaa	VERB	vt	Clusivity[subj]=Ex|Person[subj]=1|Polarity=Neg|Subcat=Tran	0	root	_	NEG-A1.EXCL-B3-know-more-NEG
 2	ma	ma	PART	aspprt	_	1	advmod	_	ASP
 3	mamo	mamo	ADV	interadv	PronType=Int	5	advmod	_	where
-4	pa	pa	PART	illocprt	_	3	discourse:q	_	Q
+4	pa	pa	PART	qprt	_	3	discourse:q	_	Q
 5	roo	o	VERB	vi:a	_	1	ccomp	_	A1.EXCL-go
 6	ta	ta	PART	aspprt	_	5	advmod	_	PROSP
 7	,	,	PUNCT	punct	_	10	punct	_	_
@@ -357,7 +357,7 @@
 
 # sent_id = 26
 # text = Heta oĩ ka'aguy mi .
-1	Heta	eta	PRON	pro	PronType=Prs	2	nsubj	_	NPOSSD-a.lot
+1	Heta	eta	PRON	indfpro	PronType=Ind	2	nsubj	_	NPOSSD-a.lot
 2	oĩ	ĩ	VERB	vi:a	_	0	root	_	A3-be.localized
 3	ka'aguy	ka'aguy	NOUN	n	_	2	dislocated	_	forest
 4	mi	mi	PART	intprt	_	2	advmod	_	DIM
@@ -366,13 +366,13 @@
 # sent_id = 27
 # text = Ka'aguy heta oĩ upepe ro'u va'erã , heta oĩ va'ekue , tembi'u mi , cho'o .
 1	Ka'aguy	ka'aguy	NOUN	n	_	3	dislocated	_	forest
-2	heta	eta	PRON	pro	PronType=Prs	3	nsubj	_	NPOSSD-a.lot
+2	heta	eta	PRON	indfpro	PronType=Ind	3	nsubj	_	NPOSSD-a.lot
 3	oĩ	ĩ	VERB	vi:a	_	0	root	_	A3-be.localized
 4	upepe	upepe	ADV	demadv	_	5	advmod	_	there
 5	ro'u	'u	VERB	vt	Clusivity[subj]=Ex|Person[subj]=1|Subcat=Tran	9	dislocated	_	A1.EXCL-ingest
 6	va'erã	va'e	SCONJ	rel	_	5	mark	_	REL-FUT
 7	,	,	PUNCT	punct	_	9	punct	_	_
-8	heta	eta	PRON	pro	PronType=Prs	9	nsubj	_	NPOSSD-a.lot
+8	heta	eta	PRON	indfpro	PronType=Ind	9	nsubj	_	NPOSSD-a.lot
 9	oĩ	ĩ	AUX	vi:a	_	3	conj	_	A3-be.localized
 10	va'ekue	va'e	SCONJ	rel	_	9	mark	_	REL-PAST
 11	,	,	PUNCT	punct	_	12	punct	_	_
@@ -452,7 +452,7 @@
 4	amba'apo	mba'eapo	VERB	vi:a	_	0	root	_	A1.SG-thing-do
 5	upecha	upecha	ADV	demadv	_	4	advmod	_	DEM
 6	,	,	PUNCT	punct	_	7	punct	_	_
-7	pende	pende	PRON	pro	PronType=Prs	4	obl	_	B2.PL
+7	pende	pende	PRON	pro	Number=Plur|Person=2|PronType=Prs	4	obl	_	B2.PL
 8	reve	eve	ADP	post	_	7	case	_	R-with
 9	ko'agã	ko'agã	ADV	adv	_	4	advmod	_	now
 10	ndee	ndee	PRON	pro	Number=Sing|Person=2|PronType=Prs	11	nsubj	_	2.SG
@@ -476,7 +476,7 @@
 # sent_id = 35
 # text = Tembiapo'i jajapo , ñamba'apo'i .
 1	Tembiapo'i	embiapo	NOUN	n	_	2	obj	_	3-NMLZ-do-=DIM
-2	jajapo	apo	VERB	vt	Clusivity[subj]=In|Person[obj]=3|Person[subj]=1|Subcat=Tran	0	root	_	A1.INCL-B3-do
+2	jajapo	apo	VERB	vt	Clusivity[subj]=In|Person[subj]=1|Subcat=Tran	0	root	_	A1.INCL-B3-do
 3	,	,	PUNCT	punct	_	4	punct	_	_
 4	ñamba'apo'i	mba'eapo	VERB	vt	Clusivity[subj]=In|Person[subj]=1|Subcat=Tran	2	conj	_	A1.INCL-thing-do-=DIM
 5	.	.	PUNCT	punct	_	4	punct	_	_
@@ -514,7 +514,7 @@
 # text = Mba'echa vy nda'u cheremiarirõ'i kuery ñevanga reko mi amoñemonã eravy-ravy'i ri nda'u .
 1	Mba'echa	mba'echa	ADV	interadv	PronType=Int	9	advmod	_	how
 2	vy	vy	SCONJ	subordconn	_	1	mark	_	SS
-3	nda'u	nda'u	PART	illocprt	_	1	discourse:q	_	Q
+3	nda'u	nda'u	PART	qprt	_	1	discourse:q	_	Q
 4	cheremiarirõ'i	emiarirõ	NOUN	n	Number[psor]=Sing	9	obj	_	B1.SG-R-grand.child-=DIM
 5	kuery	kuery	PART	quantprt	_	4	clf	_	COL
 6	ñevanga	ñevanga	NOUN	n	_	7	nmod	_	play
@@ -523,12 +523,12 @@
 9	amoñemonã	moñemonã	VERB	vt	Person[subj]=1|Subcat=Tran	0	root	_	A1.SG-raise
 10	eravy-ravy'i	eroa	VERB	vs	VerbForm=Ser	9	compound:svc	_	COM-go-V2-REDUP
 11	ri	ri	PART	discprt	_	9	advmod	_	DM
-12	nda'u	nda'u	PART	illocprt	_	9	discourse:q	_	Q
+12	nda'u	nda'u	PART	qprt	_	9	discourse:q	_	Q
 13	.	.	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 40
 # text = Ha'e a rupi chee aiko opy rupi .
-1	Ha'e	ha'e	VERB	vt	Subcat=Tran	5	advcl	_	A1.SG.say
+1	Ha'e	ha'e	VERB	vt	Person[subj]=1|Subcat=Tran	5	advcl	_	A1.SG.say
 2	a	a	SCONJ	nmlzer	_	1	mark	_	NMLZ
 3	rupi	upi	ADP	post	_	1	case	_	R-through
 4	chee	chee	PRON	pro	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	1.SG
@@ -550,7 +550,7 @@
 
 # sent_id = 42
 # text = Jajapo tembiapo mi , agã guarã , agã , chee ha'a mi ma rire jepe cheremiarirõ'i kuery oja ramo ramo'i va'e pe guarã .
-1	Jajapo	apo	VERB	vt	Clusivity[subj]=In|Person[obj]=3|Person[subj]=1|Subcat=Tran	0	root	_	A1.INCL-B3-do
+1	Jajapo	apo	VERB	vt	Clusivity[subj]=In|Person[subj]=1|Subcat=Tran	0	root	_	A1.INCL-B3-do
 2	tembiapo	embiapo	NOUN	n	_	1	obj	_	NPOSSD-NMLZ-do
 3	mi	mi	PART	intprt	_	2	amod	_	DIM
 4	,	,	PUNCT	punct	_	5	punct	_	_
@@ -587,7 +587,7 @@
 8	,	,	PUNCT	punct	_	11	punct	_	_
 9	ore	ore	PRON	pro	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	10	nmod	_	1.EXCL
 10	ñembo'ete'i	ñembo'ete	NOUN	n	_	11	obj	_	teaching-really-=DIM
-11	oikuaa	kuaa	VERB	vt	Person[obj]=3|Person[subj]=3|Subcat=Tran	4	advcl	_	A3-B3-know
+11	oikuaa	kuaa	VERB	vt	Person[subj]=3|Subcat=Tran	4	advcl	_	A3-B3-know
 12	aguã	aguã	SCONJ	subordconn	_	11	mark	_	PURP
 13	,	,	PUNCT	punct	_	14	punct	_	_
 14	oreayvu	ayvu	NOUN	n	Clusivity=Ex	10	conj	_	B1.EXCL-speech
@@ -623,7 +623,7 @@
 4	ko	ko	PART	illocprt	_	2	amod	_	EPIS
 5	peicha	upeicha	ADV	demadv	_	7	advmod	_	DEM
 6	ñemongeta	ñemongeta	NOUN	n	_	7	obj	_	discourse
-7	rojapo	apo	VERB	vt	Clusivity[subj]=Ex|Person[obj]=3|Person[subj]=1|Subcat=Tran	10	advcl	_	A1.EXCL-B3-do
+7	rojapo	apo	VERB	vt	Clusivity[subj]=Ex|Person[subj]=1|Subcat=Tran	10	advcl	_	A1.EXCL-B3-do
 8	ramo	ramo	SCONJ	subordconn	_	7	mark	_	when
 9	,	,	PUNCT	punct	_	7	punct	_	_
 10	ndoro'ui	'u	VERB	vt	Clusivity[subj]=Ex|Person[subj]=1|Polarity=Neg|Subcat=Tran	0	root	_	NEG-A1.EXCL-ingest-NEG
@@ -633,7 +633,7 @@
 # sent_id = 46
 # text = Ha'e orojapo tembiapo ramo yy ndoro'ui .
 1	Ha'e	ha'e	CCONJ	coordconn	_	6	cc	_	and
-2	orojapo	apo	VERB	vt	Clusivity[subj]=Ex|Person[obj]=3|Person[subj]=1|Subcat=Tran	6	advcl	_	A1.EXCL-B3-do
+2	orojapo	apo	VERB	vt	Clusivity[subj]=Ex|Person[subj]=1|Subcat=Tran	6	advcl	_	A1.EXCL-B3-do
 3	tembiapo	embiapo	NOUN	n	_	2	obj	_	NPOSSD-NMLZ-do
 4	ramo	ramo	SCONJ	subordconn	_	2	mark	_	when
 5	yy	yy	NOUN	n	_	6	obj	_	water
@@ -644,7 +644,7 @@
 # text = Porque ko'ava ndaa'ei tembiapo rei .
 1	Porque	porque	CCONJ	coordconn	_	3	cc	_	because
 2	ko'ava	ko'ava	PRON	dem	PronType=Dem	4	nsubj	_	DEM
-3	ndaa'ei	a'e	VERB	vt	Subcat=Tran	0	root	_	NEG-A1.SG.say-NEG
+3	ndaa'ei	a'e	VERB	vt	Person[subj]=1|Polarity=Neg|Subcat=Tran	0	root	_	NEG-A1.SG.say-NEG
 4	tembiapo	embiapo	NOUN	n	_	3	ccomp	_	NPOSSD-NMLZ-do
 5	rei	rei	PART	intprt	_	4	amod	_	just.any
 6	.	.	PUNCT	punct	_	4	punct	_	_
@@ -665,7 +665,7 @@
 4	vy	vy	SCONJ	subordconn	_	3	mark	_	SS
 5	mavoi	mavoi	ADV	adv	_	9	advmod	_	previously
 6	py	py	ADP	post	_	5	case	_	in
-7	ichupe	ichupe	PRON	pro	PronType=Prs	9	obl	_	3.DAT
+7	ichupe	ichupe	PRON	pro	Person=3|PronType=Prs	9	obl	_	3.DAT
 8	kuera	kuera	PART	quantprt	_	7	clf	_	COL
 9	añemoñe'ẽ	ñemoñe'ẽ	VERB	vi	Person[subj]=1|Subcat=Int	0	root	_	A1.SG-REFL-CAUS-speak
 10	.	.	PUNCT	punct	_	9	punct	_	_
@@ -706,7 +706,7 @@
 8	,	,	PUNCT	punct	_	6	punct	_	_
 9	cheayvu	ayvu	VERB	vi:i	_	0	root	_	B1.SG-speak
 10	katu	katu	PART	intprt	_	9	advmod	_	INT
-11	ichupe	ichupe	PRON	pro	PronType=Prs	9	obl	_	3.DAT
+11	ichupe	ichupe	PRON	pro	Person=3|PronType=Prs	9	obl	_	3.DAT
 12	kuera	kuera	PART	quantprt	_	11	clf	_	COL
 13	.	.	PUNCT	punct	_	9	punct	_	_
 
@@ -720,7 +720,7 @@
 6	,	,	PUNCT	punct	_	9	punct	_	_
 7	mba'e	mba'e	PRON	interpron	PronType=Int	9	obj	_	what
 8	pa	pa	PART	qprt	_	7	discourse:q	_	Q
-9	ndojapoi	apo	VERB	vt	Person[obj]=3|Person[subj]=3|Polarity=Neg|Subcat=Tran	4	conj	_	NEG-A3-B3-do-NEG
+9	ndojapoi	apo	VERB	vt	Person[subj]=3|Polarity=Neg|Subcat=Tran	4	conj	_	NEG-A3-B3-do-NEG
 10	arã	a	SCONJ	nmlzer	_	9	mark	_	NMLZ-FUT
 11	,	,	PUNCT	punct	_	14	punct	_	_
 12	mba'e	mba'e	PRON	interpron	PronType=Int	14	obj	_	what
@@ -761,7 +761,7 @@
 
 # sent_id = 55
 # text = Aipota gui omoinge iñakã me tembiapo porã , ikatu aguãicha omombyta ikorachõ me pensamiento porã , ha'e opyta aguã ichupe kuera iñakã me mba'e pa , ha'e ichupe kuera oguerokakuaa aguã , okakuaa porã aguã , hechaĩ aguã , oñevanga porã aguã , oñevanga ijyvate peve-peve ogueroñevanga aguã , pe guete rekoachy mi .
-1	Aipota	pota	VERB	vt	Person[obj]=3|Person[subj]=1|Subcat=Tran	0	root	_	A1.SG-B3-want
+1	Aipota	pota	VERB	vt	Person[subj]=1|Subcat=Tran	0	root	_	A1.SG-B3-want
 2	gui	gui	ADV	adv	_	1	advmod	_	also
 3	omoinge	moinge	VERB	vt	Person[subj]=3|Subcat=Tran	1	ccomp	_	A3-CAUS-go.in
 4	iñakã	akã	NOUN	n	_	3	obl	_	B3-head
@@ -780,7 +780,7 @@
 17	ha'e	ha'e	CCONJ	coordconn	_	18	cc	_	and
 18	opyta	pyta	VERB	vi:a	_	3	conj	_	A3-stay
 19	aguã	aguã	SCONJ	subordconn	_	18	mark	_	PURP
-20	ichupe	ichupe	PRON	pro	PronType=Prs	18	obl	_	3.DAT
+20	ichupe	ichupe	PRON	pro	Person=3|PronType=Prs	18	obl	_	3.DAT
 21	kuera	kuera	PART	quantprt	_	20	clf	_	COL
 22	iñakã	akã	NOUN	n	_	18	obl	_	B3-head
 23	me	me	ADP	post	_	22	case	_	DAT
@@ -788,7 +788,7 @@
 25	pa	pa	PART	qprt	_	24	discourse:q	_	Q
 26	,	,	PUNCT	punct	_	30	punct	_	_
 27	ha'e	ha'e	CCONJ	coordconn	_	30	cc	_	and
-28	ichupe	ichupe	PRON	pro	PronType=Prs	30	obl	_	3.DAT
+28	ichupe	ichupe	PRON	pro	Person=3|PronType=Prs	30	obl	_	3.DAT
 29	kuera	kuera	PART	quantprt	_	28	clf	_	COL
 30	oguerokakuaa	guerokakuaa	VERB	vt	Person[subj]=3|Subcat=Tran	3	conj	_	A3-COM-grow
 31	aguã	aguã	SCONJ	subordconn	_	30	mark	_	PURP
@@ -843,7 +843,7 @@
 8	,	,	PUNCT	punct	_	11	punct	_	_
 9	mba'e	mba'e	PRON	interpron	PronType=Int	11	obj	_	what
 10	pa	pa	PART	qprt	_	9	discourse:q	_	Q
-11	ojapo	apo	VERB	vt	Person[obj]=3|Person[subj]=3|Subcat=Tran	6	conj	_	A3-B3-do
+11	ojapo	apo	VERB	vt	Person[subj]=3|Subcat=Tran	6	conj	_	A3-B3-do
 12	arã	a	SCONJ	nmlzer	_	11	mark	_	NMLZ-FUT
 13	.	.	PUNCT	punct	_	11	punct	_	_
 
@@ -856,8 +856,8 @@
 5	opa	pa	VERB	vi:a	_	8	parataxis:rep	_	A3-finish
 6	ma	ma	PART	aspprt	_	5	advmod	_	ASP
 7	",	",	PUNCT	punct	_	5	punct	_	_
-8	ha'e'i	ha'e	VERB	vt	Subcat=Tran	0	root	_	A1.SG.say-=DIM
-9	ichupe	ichupe	PRON	pro	PronType=Prs	8	obl	_	3.DAT
+8	ha'e'i	ha'e	VERB	vt	Person[subj]=1|Subcat=Tran	0	root	_	A1.SG.say-=DIM
+9	ichupe	ichupe	PRON	pro	Person=3|PronType=Prs	8	obl	_	3.DAT
 10	kuery	kuery	PART	quantprt	_	9	clf	_	COL
 11	.	.	PUNCT	punct	_	8	punct	_	_
 
@@ -895,7 +895,7 @@
 2	arã	a	SCONJ	nmlzer	_	1	mark	_	NMLZ-FUT
 3	guembe	guembe	NOUN	n	_	1	obj	_	guembe
 4	,	,	PUNCT	punct	_	1	punct	_	_
-5	ha'e	ha'e	VERB	vt	Subcat=Tran	0	root	_	A1.SG.say
+5	ha'e	ha'e	VERB	vt	Person[subj]=1|Subcat=Tran	0	root	_	A1.SG.say
 6	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 61
@@ -980,7 +980,7 @@
 # sent_id = 64
 # text = Tupã ojapo va'ekue upea , avachi ha'e avi .
 1	Tupã	Tupã	PROPN	nprop	_	2	nsubj	_	Tupã
-2	ojapo	apo	VERB	vt	Person[obj]=3|Person[subj]=3|Subcat=Tran	0	root	_	A3-B3-do
+2	ojapo	apo	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	A3-B3-do
 3	va'ekue	va'e	SCONJ	rel	_	2	mark	_	REL-PAST
 4	upea	upea	PRON	dem	PronType=Dem	2	obj	_	DEM
 5	,	,	PUNCT	punct	_	6	punct	_	_
@@ -997,7 +997,7 @@
 4	vy	vy	SCONJ	subordconn	_	1	mark	_	SS
 5	chee	chee	PRON	pro	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	1.SG
 6	ha'e	ha'e	VERB	vt	Subcat=Tran	0	root	_	A1SG.say
-7	ichupe	ichupe	PRON	pro	PronType=Prs	6	obl	_	3.DAT
+7	ichupe	ichupe	PRON	pro	Person=3|PronType=Prs	6	obl	_	3.DAT
 8	kuera	kuera	PART	quantprt	_	7	clf	_	COL
 9	,	,	PUNCT	punct	_	10	punct	_	_
 10	ichyrã	chy	NOUN	n	_	7	conj	_	B3-mother-FUT
@@ -1011,7 +1011,7 @@
 18	,	,	PUNCT	punct	_	21	punct	_	_
 19	mba'e	mba'e	PRON	interpron	PronType=Int	21	obj	_	what
 20	pa	pa	PART	qprt	_	19	discourse:q	_	Q
-21	rojapo	apo	VERB	vt	Clusivity[subj]=Ex|Person[obj]=3|Person[subj]=1|Subcat=Tran	16	conj	_	A1.EXCL-B3-do
+21	rojapo	apo	VERB	vt	Clusivity[subj]=Ex|Person[subj]=1|Subcat=Tran	16	conj	_	A1.EXCL-B3-do
 22	arã	a	SCONJ	nmlzer	_	21	mark	_	NMLZ-FUT
 23	.	.	PUNCT	punct	_	21	punct	_	_
 
@@ -1033,7 +1033,7 @@
 2	Mbegueve-gueve	mbegue	ADV	adv	_	9	advmod	_	surreptitiously-more-REDUP
 3	rupi	upi	ADP	post	_	2	case	_	R-through
 4	"	"	PUNCT	punct	_	2	punct	_	_
-5	he'i	he'i	VERB	vt	Subcat=Tran	9	parataxis	_	A3.say
+5	he'i	he'i	VERB	vt	Person[subj]=3|Subcat=Tran	9	parataxis	_	A3.say
 6	va'ekue	va'e	SCONJ	rel	_	5	mark	_	REL-PAST
 7	cheru	u	NOUN	n	Number[psor]=Sing	5	nsubj	_	B1.SG-R-father
 8	"	"	PUNCT	punct	_	9	punct	_	_
@@ -1081,14 +1081,14 @@
 1	"	"	PUNCT	punct	_	4	punct	_	_
 2	Upea	upea	PRON	dem	PronType=Dem	4	obl	_	DEM
 3	agã	agã	ADV	adv	_	4	advmod	_	today
-4	jaikuaapa	kuaa	VERB	vt	Clusivity[subj]=In|Person[obj]=3|Person[subj]=1|Subcat=Tran	0	root	_	A1.INCL-B3-know-COMPL
+4	jaikuaapa	kuaa	VERB	vt	Clusivity[subj]=In|Person[subj]=1|Subcat=Tran	0	root	_	A1.INCL-B3-know-COMPL
 5	arã	a	SCONJ	nmlzer	_	4	mark	_	NMLZ-FUT
 6	jurua	jurua	NOUN	n	_	7	nmod	_	non.indigenous
 7	ayvu	ayvu	NOUN	n	_	8	nmod	_	speech
 8	reko	eko	NOUN	n	_	4	obj	_	R-way.of.life
 9	agã	agã	ADV	adv	_	4	advmod	_	today
 10	",	",	PUNCT	punct	_	4	punct	_	_
-11	he'i	he'i	VERB	vt	Subcat=Tran	4	parataxis	_	A3.say
+11	he'i	he'i	VERB	vt	Person[subj]=3|Subcat=Tran	4	parataxis	_	A3.say
 12	va'ekue	va'e	SCONJ	rel	_	11	mark	_	REL-PAST
 13	cheru	u	NOUN	n	Number[psor]=Sing	11	nsubj	_	B1.SG-R-father
 14	.	.	PUNCT	punct	_	11	punct	_	_
@@ -1118,7 +1118,7 @@
 21	rei'i	rei	PART	intprt	_	19	advmod	_	INT-=DIM
 22	va'e	va'e	SCONJ	rel	_	19	mark	_	REL
 23	",	",	PUNCT	punct	_	17	punct	_	_
-24	he'i	he'i	VERB	vt	Subcat=Tran	17	parataxis	_	A3.say
+24	he'i	he'i	VERB	vt	Person[subj]=3|Subcat=Tran	17	parataxis	_	A3.say
 25	va'ekue	va'e	SCONJ	rel	_	24	mark	_	REL-PAST
 26	cheru	u	NOUN	n	Number[psor]=Sing	24	nsubj	_	B1.SG-R-father
 27	.	.	PUNCT	punct	_	24	punct	_	_
@@ -1134,12 +1134,12 @@
 7	neremiarirõ'i	emiarirõ	NOUN	n	Number[psor]=Sing	4	conj	_	B2.SG-R-grand.child-=DIM
 8	kuery	kuery	PART	quantprt	_	7	clf	_	COL
 9	pe	pe	ADP	post	_	4	case	_	DAT
-10	eekombo'e	ekombo'e	VERB	vt	Person[obj]=2|Subcat=Tran	0	root	_	2.SG.IMP-way.of.life-teach
+10	eekombo'e	ekombo'e	VERB	vt	Person[subj]=2|Subcat=Tran	0	root	_	2.SG.IMP-way.of.life-teach
 11	porã'i	porã	ADV	adv	_	10	advmod	_	well/a.lot-=DIM
 12	ke	ke	PART	illocprt	_	10	advmod	_	IMP
 13	erekovy	eroiko	VERB	vs	VerbForm=Ser	10	compound:svc	_	COM-walk-V2
 14	,	,	PUNCT	punct	_	15	punct	_	_
-15	he'i	he'i	VERB	vt	Subcat=Tran	10	advcl	_	A3.say
+15	he'i	he'i	VERB	vt	Person[subj]=3|Subcat=Tran	10	advcl	_	A3.say
 16	ague	a	SCONJ	nmlzer	_	15	mark	_	NMLZ-PAST
 17	rami	rami	ADP	post	_	15	case	_	like
 18	.	.	PUNCT	punct	_	15	punct	_	_
@@ -1156,9 +1156,9 @@
 # text = Chee cheru he'i va'ekue ajapo , chetuva rekoachy yvy py .
 1	Chee	chee	PRON	pro	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	1.SG
 2	cheru	u	NOUN	n	Number[psor]=Sing	3	nsubj	_	B1.SG-R-father
-3	he'i	he'i	VERB	vt	Subcat=Tran	5	obj	_	A3.say
+3	he'i	he'i	VERB	vt	Person[subj]=3|Subcat=Tran	5	obj	_	A3.say
 4	va'ekue	va'e	SCONJ	rel	_	3	mark	_	REL-PAST
-5	ajapo	apo	VERB	vt	Person[obj]=3|Person[subj]=1|Subcat=Tran	0	root	_	A1.SG-B3-do
+5	ajapo	apo	VERB	vt	Person[subj]=1|Subcat=Tran	0	root	_	A1.SG-B3-do
 6	,	,	PUNCT	punct	_	8	punct	_	_
 7	chetuva	tuva	NOUN	n	Number[psor]=Sing	8	nmod	_	B1.SG-father
 8	rekoachy	ekoachy	NOUN	n	_	5	dislocated	_	R-way.of.life-pain
@@ -1184,7 +1184,7 @@
 5	ore	ore	PRON	pro	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	1.EXCL
 6	ñemongeta	ñemongeta	NOUN	n	_	8	obj	_	discourse
 7	mi	mi	PART	intprt	_	6	amod	_	DIM
-8	rojapo	apo	VERB	vt	Clusivity[subj]=Ex|Person[obj]=3|Person[subj]=1|Subcat=Tran	12	advcl	_	A1.EXCL-B3-do
+8	rojapo	apo	VERB	vt	Clusivity[subj]=Ex|Person[subj]=1|Subcat=Tran	12	advcl	_	A1.EXCL-B3-do
 9	ramo	ramo	SCONJ	subordconn	_	8	mark	_	when
 10	,	,	PUNCT	punct	_	12	punct	_	_
 11	ore	ore	PRON	pro	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	1.EXCL
@@ -1214,7 +1214,7 @@
 6	jareko	riko	VERB	vt	Clusivity[subj]=In|Person[subj]=1|Subcat=Tran	0	root	_	A1.INCL-COM-live,be
 7	ha'e	ha'e	VERB	vt	Subcat=Tran	6	parataxis	_	A1SG.say
 8	jepi	jepi	ADV	adv	_	7	advmod	_	ITER
-9	ichupe	ichupe	PRON	pro	PronType=Prs	7	obl	_	3.DAT
+9	ichupe	ichupe	PRON	pro	Person=3|PronType=Prs	7	obl	_	3.DAT
 10	kuera	kuera	PART	quantprt	_	9	clf	_	COL
 11	ajeve	ajeve	CCONJ	coordconn	_	14	cc	_	furthermore
 12	rã	rã	SCONJ	subordconn	_	11	fixed	_	DS
@@ -1250,7 +1250,7 @@
 6	ta	ta	PART	aspprt	_	5	advmod	_	PROSP
 7	va'e	va'e	SCONJ	rel	_	5	mark	_	REL
 8	re	e	ADP	post	_	5	case	_	R-ABL
-9	aipoa'e	aipoa'e	VERB	vt	Subcat=Tran	0	root	_	ATN-say
+9	aipoa'e	aipoa'e	VERB	vt	Person[subj]=1|Subcat=Tran	0	root	_	ATN-A1.SG.say
 10	,	,	PUNCT	punct	_	13	punct	_	_
 11	porque	porque	SCONJ	coordconn	_	13	mark	_	because
 12	chee	chee	PRON	pro	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	1.SG
@@ -1258,7 +1258,7 @@
 14	ha'ora	ha'ora	ADV	adv	_	15	advmod	_	now
 15	aa	aa	VERB	vi:a	_	13	conj	_	go
 16	arã	a	SCONJ	nmlzer	_	15	mark	_	NMLZ-FUT
-17	pende	pende	PRON	pro	PronType=Prs	15	obl	_	B2.PL
+17	pende	pende	PRON	pro	Number=Plur|Person=2|PronType=Prs	15	obl	_	B2.PL
 18	gui	gui	ADP	post	_	17	case	_	from
 19	,	,	PUNCT	punct	_	21	punct	_	_
 20	ha'e	ha'e	CCONJ	coordconn	_	21	cc	_	and
@@ -1291,7 +1291,7 @@
 13	,	,	PUNCT	punct	_	14	punct	_	_
 14	ha'e	ha'e	VERB	vt	Subcat=Tran	12	parataxis	_	A1SG.say
 15	jepi	jepi	ADV	adv	_	14	advmod	_	ITER
-16	pendevy	pendevy	PRON	pro	PronType=Prs	14	obl	_	B2.PL-DAT
+16	pendevy	pendevy	PRON	pro	Number=Plur|Person=2|PronType=Prs	14	obl	_	B2.PL-DAT
 17	.	.	PUNCT	punct	_	14	punct	_	_
 
 # sent_id = 80
@@ -1303,7 +1303,7 @@
 5	ainy	ĩ	VERB	vs	Person=1|VerbForm=Ser	4	compound:svc	_	A1.SG-be.localized-V2
 6	chepi'a'i	pi'a	NOUN	n	Number[psor]=Sing	4	dislocated	_	B1.SG-son-=DIM
 7	,	,	PUNCT	punct	_	8	punct	_	_
-8	ereikuaa	kuaa	VERB	vt	Person[obj]=3|Person[subj]=2|Subcat=Tran	4	advcl	_	A2.SG-B3-know
+8	ereikuaa	kuaa	VERB	vt	Person[subj]=2|Subcat=Tran	4	advcl	_	A2.SG-B3-know
 9	aguã	aguã	SCONJ	subordconn	_	8	mark	_	PURP
 10	,	,	PUNCT	punct	_	11	punct	_	_
 11	erendu	endu	VERB	vt	Person[subj]=2|Subcat=Tran	4	advcl	_	A2.SG-perceive
@@ -1339,7 +1339,7 @@
 # sent_id = 83
 # text = Mava'e oikuaa pota ?
 1	Mava'e	mava'e	PRON	interpron	PronType=Int	2	nsubj	_	who
-2	oikuaa	kuaa	VERB	vt	Person[obj]=3|Person[subj]=3|Subcat=Tran	0	root	_	A3-B3-know
+2	oikuaa	kuaa	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	A3-B3-know
 3	pota	pota	VERB	vpos	VerbForm=Post	2	compound:svc	_	try
 4	?	?	PUNCT	punct	_	2	punct	_	_
 
@@ -1382,7 +1382,7 @@
 3	ore	ore	PRON	pro	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	1.EXCL
 4	ko	ko	PART	illocprt	_	3	amod	_	EPIS
 5	roguapy	guapy	VERB	vi:a	_	0	root	_	A1.EXCL-sit
-6	rojapo	apo	VERB	vt	Clusivity[subj]=Ex|Person[obj]=3|Person[subj]=1|Subcat=Tran	5	compound:svc	_	A1.EXCL-B3-do
+6	rojapo	apo	VERB	vt	Clusivity[subj]=Ex|Person[subj]=1|Subcat=Tran	5	compound:svc	_	A1.EXCL-B3-do
 7	ñemongeta	ñemongeta	NOUN	n	_	6	obj	_	discourse
 8	.	.	PUNCT	punct	_	5	punct	_	_
 
@@ -1410,7 +1410,7 @@
 13	amoñendu	moñeendu	VERB	vt	Person[subj]=1|Subcat=Tran	2	acl	_	A1.SG-CAUS-REFL-hear
 14	va	va	SCONJ	rel	_	13	mark	_	REL
 15	,	,	PUNCT	punct	_	13	punct	_	_
-16	aipota	pota	VERB	vt	Person[obj]=3|Person[subj]=1|Subcat=Tran	0	root	_	A1.SG-B3-want
+16	aipota	pota	VERB	vt	Person[subj]=1|Subcat=Tran	0	root	_	A1.SG-B3-want
 17	ha'e	ha'e	PRON	pro	Person=3|PronType=Prs	19	nsubj	_	3
 18	pavẽ	pavẽ	DET	quant	_	17	amod	_	all
 19	oendu	endu	VERB	vt	Person[subj]=3|Subcat=Tran	16	ccomp	_	A3-hear
@@ -1420,7 +1420,7 @@
 # text = " Añete he'i po ra'e chejaryi ."
 1	"	"	PUNCT	punct	_	3	punct	_	_
 2	Añete	añete	NOUN	n	_	3	obj	_	truth
-3	he'i	he'i	VERB	vt	Subcat=Tran	0	root	_	A3.say
+3	he'i	he'i	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	A3.say
 4	po	po	PART	illocprt	_	3	advmod	_	EPIS
 5	ra'e	ra'e	PART	illocprt	_	3	advmod	_	MIR
 6	chejaryi	jaryi	NOUN	n	Number[psor]=Sing	3	nsubj	_	B1.SG-grandmother
@@ -1431,13 +1431,13 @@
 1	"	"	PUNCT	punct	_	4	punct	_	_
 2	Ñande	ñande	PRON	pro	Clusivity=In|Number=Plur|Person=1|PronType=Prs	4	obj	_	1.INCL
 3	,	,	PUNCT	punct	_	2	punct	_	_
-4	ñanderayvu	ñandeayvu	VERB	vt	Clusivity[obj]=In|Person[obj]=1|Person[subj]=2|Subcat=Tran	0	root	_	B1.INCL-A2.SG-love
+4	ñanderayvu	ñandeayvu	VERB	vt	Clusivity[obj]=In|Person[obj]=1|Subcat=Tran	0	root	_	B1.INCL-A2.SG-love
 5	ra'e	ra'e	PART	illocprt	_	4	advmod	_	MIR
 6	,	,	PUNCT	punct	_	7	punct	_	_
 7	añete'i	añete	NOUN	n	_	4	discourse	_	truth-=DIM
 8	po	po	PART	illocprt	_	7	amod	_	EPIS
 9	ra'e	ra'e	PART	illocprt	_	7	amod	_	MIR
-10	ñande	ñande	PRON	pro	PronType=Prs	12	reparandum	_	B1.INCL
+10	ñande	ñande	PRON	pro	Clusivity=In|Number=Plur|Person=1|PronType=Prs	12	reparandum	_	B1.INCL
 11	,	,	PUNCT	punct	_	12	punct	_	_
 12	ñandevy	ñandevy	PRON	pro	Clusivity=In|Number=Plur|Person=1|PronType=Prs	14	obl	_	1.INCL-DAT
 13	pe	pe	ADP	post	_	12	case	_	DAT
@@ -1449,17 +1449,17 @@
 
 # sent_id = 92
 # text = He'i aguã rami aipota omoñendu imoiny , oendu aguã , oikuaa aguã , ñanerembiapo , ñande mokoĩ'i pecha jajoguereko , ikatu arã ha'e kuery ojopy avi ñanerembiapo mi oiko ja'e ague'i rami , ojapo ñande ñandepy'a ñeñandu pe jareko va .
-1	He'i	he'i	VERB	vt	Subcat=Tran	4	advcl	_	A3.say
+1	He'i	he'i	VERB	vt	Person[subj]=3|Subcat=Tran	4	advcl	_	A3.say
 2	aguã	aguã	SCONJ	subordconn	_	1	mark	_	PURP
 3	rami	rami	ADP	post	_	1	case	_	like
-4	aipota	pota	VERB	vt	Person[obj]=3|Person[subj]=1|Subcat=Tran	0	root	_	A1.SG-B3-want
+4	aipota	pota	VERB	vt	Person[subj]=1|Subcat=Tran	0	root	_	A1.SG-B3-want
 5	omoñendu	moñendu	VERB	vt	Person[subj]=3|Subcat=Tran	4	ccomp	_	A3-CAUS-speak
 6	imoiny	moiny	VERB	vt	Person[obj]=3|Subcat=Tran	5	compound:svc	_	B3-CAUS-be.localized
 7	,	,	PUNCT	punct	_	8	punct	_	_
 8	oendu	endu	VERB	vt	Person[subj]=3|Subcat=Tran	5	conj	_	A3-hear
 9	aguã	aguã	SCONJ	subordconn	_	8	mark	_	PURP
 10	,	,	PUNCT	punct	_	11	punct	_	_
-11	oikuaa	kuaa	VERB	vt	Person[obj]=3|Person[subj]=3|Subcat=Tran	5	conj	_	A3-B3-know
+11	oikuaa	kuaa	VERB	vt	Person[subj]=3|Subcat=Tran	5	conj	_	A3-B3-know
 12	aguã	aguã	SCONJ	subordconn	_	11	mark	_	PURP
 13	,	,	PUNCT	punct	_	14	punct	_	_
 14	ñanerembiapo	embiapo	NOUN	n	Clusivity=In	11	obj	_	B1.INCL-R-NMLZ-do
@@ -1482,7 +1482,7 @@
 31	ague'i	a	SCONJ	nmlzer	_	30	mark	_	NMLZ-PAST-=DIM
 32	rami	rami	ADP	post	_	30	case	_	like
 33	,	,	PUNCT	punct	_	34	punct	_	_
-34	ojapo	apo	VERB	vt	Person[obj]=3|Person[subj]=3|Subcat=Tran	25	conj	_	A3-B3-do
+34	ojapo	apo	VERB	vt	Person[subj]=3|Subcat=Tran	25	conj	_	A3-B3-do
 35	ñande	ñande	PRON	pro	Clusivity=In|Number=Plur|Person=1|PronType=Prs	39	nsubj	_	1.INCL
 36	ñandepy'a	ñandepy'a	NOUN	n	Clusivity=In	39	obj	_	B1.INCL-heart
 37	ñeñandu	ñeñandu	VERB	vd:a	_	36	compound	_	feel.inside.oneself
@@ -1505,7 +1505,7 @@
 2	ko	ko	PART	illocprt	_	1	amod	_	EPIS
 3	kova'e	kova'e	PRON	dem	PronType=Dem	5	obl	_	DEM-REL
 4	re	e	ADP	post	_	3	case	_	R-ABL
-5	ñaikotevẽ	kotevẽ	VERB	vt	Clusivity[subj]=In|Person[obj]=3|Person[subj]=1|Subcat=Tran	0	root	_	A1.INCL-B3-need
+5	ñaikotevẽ	kotevẽ	VERB	vt	Clusivity[subj]=In|Person[subj]=1|Subcat=Tran	0	root	_	A1.INCL-B3-need
 6	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 95
@@ -1513,7 +1513,7 @@
 1	Ñanderuvicha	ñandeuvicha	NOUN	n	Clusivity=In	4	nsubj	_	B1.INCL-R-leader
 2	,	,	PUNCT	punct	_	3	punct	_	_
 3	cacique	cacique	NOUN	n	_	1	appos	_	leader
-4	oikotevẽ	kotevẽ	VERB	vt	Person[obj]=3|Person[subj]=3|Subcat=Tran	0	root	_	A3-B3-need
+4	oikotevẽ	kotevẽ	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	A3-B3-need
 5	kova'e	kova'e	PRON	dem	PronType=Dem	4	obl	_	DEM-REL
 6	re	e	ADP	post	_	5	case	_	R-ABL
 7	.	.	PUNCT	punct	_	4	punct	_	_
@@ -1526,7 +1526,7 @@
 4	kuery	kuery	PART	quantprt	_	3	clf	_	COL
 5	pendejaryi	jaryi	NOUN	n	Number[psor]=Plur	3	conj	_	B2.PL-grandmother
 6	kuery	kuery	PART	quantprt	_	5	clf	_	COL
-7	oikotevẽ	kotevẽ	VERB	vt	Person[obj]=3|Person[subj]=3|Subcat=Tran	0	root	_	A3-B3-need
+7	oikotevẽ	kotevẽ	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	A3-B3-need
 8	kova'e	kova'e	DET	dem	PronType=Dem	11	reparandum	_	DEM-REL
 9	,	,	PUNCT	punct	_	11	punct	_	_
 10	kova'e	kova'e	DET	dem	PronType=Dem	11	det	_	DEM-REL
@@ -1580,7 +1580,7 @@
 22	pe	pe	ADP	post	_	21	case	_	DAT
 23	guarã	gua	SCONJ	nmlzer	_	21	mark	_	NMLZ-FUT
 24	,	,	PUNCT	punct	_	25	punct	_	_
-25	pendevy	pendevy	PRON	pro	PronType=Prs	17	obl	_	B2.PL-DAT
+25	pendevy	pendevy	PRON	pro	Number=Plur|Person=2|PronType=Prs	17	obl	_	B2.PL-DAT
 26	pe	pe	ADP	post	_	25	case	_	DAT
 27	guarã	gua	SCONJ	nmlzer	_	25	mark	_	NMLZ-FUT
 28	,	,	PUNCT	punct	_	29	punct	_	_
@@ -1615,6 +1615,6 @@
 19	agã	agã	ADV	adv	_	17	advmod	_	today
 20	mba'e	mba'e	PRON	interpron	PronType=Int	22	obj	_	what
 21	pa	pa	PART	qprt	_	20	discourse:q	_	Q
-22	ha'e	ha'e	VERB	vt	Subcat=Tran	17	ccomp	_	say
+22	ha'e	ha'e	VERB	vt	Person[subj]=1|Subcat=Tran	17	ccomp	_	A1.SG.say
 23	.	.	PUNCT	punct	_	17	punct	_	_
 

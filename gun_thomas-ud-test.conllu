@@ -26,7 +26,7 @@
 
 # sent_id = 3
 # text = Ha'e'i ichyrã ou , ha'e neĩ rã teri oiko .
-# text_en = And his mother also came, he hadn't been born yet.
+# text_en = And his mother also came, he wasn't born yet.
 1	Ha'e'i	ha'e	CCONJ	coordconn	_	3	cc	_	and-=DIM
 2	ichyrã	chy	NOUN	n	_	3	nsubj	_	B3-mother-FUT
 3	ou	u	VERB	vi:a	_	0	root	_	A3-come
@@ -906,7 +906,7 @@
 
 # sent_id = 58
 # text = " Aromeno ko'agã ka'aguy opa ma ", ha'e'i ichupe kuery .
-# text_en = "Halas, nowadays the forest is gone", I tell them.
+# text_en = "Alas, nowadays the forest is gone", I tell them.
 1	"	"	PUNCT	punct	_	5	punct	_	_
 2	Aromeno	aromeno	ADV	adv	_	5	advmod	_	unfortunately
 3	ko'agã	ko'agã	ADV	adv	_	5	advmod	_	now
@@ -1537,7 +1537,7 @@
 
 # sent_id = 91
 # text = He'i aguã rami aipota omoñendu imoiny , oendu aguã , oikuaa aguã , ñanerembiapo , ñande mokoĩ'i pecha jajoguereko , ikatu arã ha'e kuery ojopy avi ñanerembiapo mi oiko ja'e ague'i rami , ojapo ñande ñandepy'a ñeñandu pe jareko va .
-# text_en = I would like them to talk about me in this way, so that they learn and know our work, this is what the two of us do, so that they benefit from our work and live according to our words, so that they do what we feel in our hearts.
+# text_en = So that they speak like this, I want them to pray, to learn and know our work, this is what the two of us do, so that they benefit from our work and live according to our words, so that they do what we feel in our hearts.
 1	He'i	he'i	VERB	vt	Person[subj]=3|Subcat=Tran	4	advcl	_	A3.say
 2	aguã	aguã	SCONJ	subordconn	_	1	mark	_	PURP
 3	rami	rami	ADP	post	_	1	case	_	like
@@ -1692,7 +1692,7 @@
 # text_en = Good, now let my grandchildren and my children listen to my words.
 1	Ha'eve	a'eve	VERB	vi:i	_	5	discourse	_	B3-good
 2	ma	ma	PART	discprt	_	1	advmod	_	BDY
-3	cheayvu	ayvu	VERB	vi:i	_	5	obj	_	B1.SG-speak
+3	cheayvu	ayvu	NOUN	n	Number[psor]=Sing	5	obj	_	B1.SG-speach
 4	agã	agã	ADV	adv	_	5	advmod	_	today
 5	remoñendu	moñendu	VERB	vt	Person[subj]=2|Subcat=Tran	0	root	_	A2.SG-CAUS-speak
 6	mi	mi	PART	intprt	_	5	advmod	_	DIM

@@ -2,6 +2,7 @@
 # document_title = Paulina Romero 03/08/17 #3
 # sent_id = 1
 # text = Ha'e ore roju ramo'i ronguare ngo ko'ape , ka'aguy heta .
+# text_en = When we came here, there was a lot of forest.
 1	Ha'e	ha'e	CCONJ	coordconn	_	10	cc	_	and
 2	ore	ore	PRON	pro	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	1.EXCL
 3	roju	ju	VERB	vi:a	_	10	advcl	_	A1.EXCL-come
@@ -16,6 +17,7 @@
 
 # sent_id = 2
 # text = Ha ore te roju .
+# text_en = So we came.
 1	Ha	ha	CCONJ	coordconn	_	4	cc	_	and
 2	ore	ore	PRON	pro	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	1.EXCL
 3	te	te	PART	intprt	_	2	amod	_	really
@@ -24,6 +26,7 @@
 
 # sent_id = 3
 # text = Ha'e'i ichyrã ou , ha'e neĩ rã teri oiko .
+# text_en = And his mother also came, he hadn't been born yet.
 1	Ha'e'i	ha'e	CCONJ	coordconn	_	3	cc	_	and-=DIM
 2	ichyrã	chy	NOUN	n	_	3	nsubj	_	B3-mother-FUT
 3	ou	u	VERB	vi:a	_	0	root	_	A3-come
@@ -37,6 +40,7 @@
 
 # sent_id = 4
 # text = Pero ore ropyta .
+# text_en = But we stayed.
 1	Pero	pero	CCONJ	coordconn	_	3	cc	_	but
 2	ore	ore	PRON	pro	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	1.EXCL
 3	ropyta	pyta	VERB	vi:a	_	0	root	_	A1.EXCL-stay
@@ -44,6 +48,7 @@
 
 # sent_id = 5
 # text = Romba'apo , roñoty avachi , manduvi , guembe , guembe , umia , opa voi kuri .
+# text_en = We worked and planted corn and peanuts, guembe, these kind of things, and everything disappeared.
 1	Romba'apo	mba'eapo	VERB	vt	Clusivity[subj]=Ex|Person[subj]=1|Subcat=Tran	0	root	_	A1.EXCL-thing-do
 2	,	,	PUNCT	punct	_	3	punct	_	_
 3	roñoty	ño	VERB	vt	Clusivity[subj]=Ex|Person[subj]=1|Subcat=Tran	1	conj	_	A1.EXCL-TRANS-plant
@@ -64,6 +69,7 @@
 
 # sent_id = 6
 # text = Ha'e , opa rupi ka'aguy .
+# text_en = And, there used to be forest everywhere.
 1	Ha'e	ha'e	CCONJ	coordconn	_	5	cc	_	and
 2	,	,	PUNCT	punct	_	5	punct	_	_
 3	opa	opa	PRON	univpro	PronType=Tot	5	obl	_	everywhere
@@ -73,6 +79,7 @@
 
 # sent_id = 7
 # text = Ha'e pero roju ore ko'ape heta roiko .
+# text_en = But there was a a lot of people living with us.
 1	Ha'e	ha'e	CCONJ	coordconn	_	2	reparandum	_	and
 2	pero	pero	CCONJ	coordconn	_	3	cc	_	but
 3	roju	ju	VERB	vi:a	_	0	root	_	A1.EXCL-come
@@ -84,11 +91,13 @@
 
 # sent_id = 8
 # text = Romba'apo .
+# text_en = We worked.
 1	Romba'apo	mba'eapo	VERB	vt	Clusivity[subj]=Ex|Person[subj]=1|Subcat=Tran	0	root	_	A1.EXCL-thing-do
 2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 9
 # text = Ha oreka'aguy oñemomichĩmba , oñemokyri'ĩmba .
+# text_en = And our forest was disappearing.
 1	Ha	ha	CCONJ	coordconn	_	3	cc	_	and
 2	oreka'aguy	ka'aguy	NOUN	n	Clusivity=Ex	3	nsubj	_	B1.EXCL-forest
 3	oñemomichĩmba	ñemomichĩ	VERB	vi	Person[subj]=3|Subcat=Int	0	root	_	A3-REFL-CAUS-small-COMPL
@@ -98,6 +107,7 @@
 
 # sent_id = 10
 # text = Oñemokyri'ĩmba oreka'aguy roñevanga , kyringue oñevanga aguã rei jepe ndaipovei ma .
+# text_en = The forest disappeared, the forest where the children used to play, they don't exist anymore.
 1	Oñemokyri'ĩmba	ñemokyrĩ	VERB	vi	Person[subj]=3|Subcat=Int	0	root	_	A3-REFL-CAUS-small-=DIM-COMPL
 2	oreka'aguy	ka'aguy	NOUN	n	Clusivity=Ex	1	nsubj	_	B1.EXCL-forest
 3	roñevanga	ñevanga	VERB	vi:a	_	6	reparandum	_	A1.EXCL-play
@@ -113,6 +123,7 @@
 
 # sent_id = 11
 # text = Pero upeve re ore roñea'ã , opyta aguã orevy ko'ape ka'aguy , orevy opyta aguã .
+# text_en = But even then, we strove to keep the forest, to keep it for ourselves.
 1	Pero	pero	CCONJ	coordconn	_	5	cc	_	but
 2	upeve	upe	PRON	dem	PronType=Dem	5	obl	_	DEM-more
 3	re	e	ADP	post	_	2	case	_	R-ABL
@@ -132,6 +143,7 @@
 
 # sent_id = 12
 # text = Upe rire ma kova'e mitã'i , cheremiarirõ'i oiko , ojau .
+# text_en = And then this one, my grandchild, was born.
 1	Upe	upe	PRON	dem	PronType=Dem	8	obl:sentcon	_	DEM
 2	rire	rire	SCONJ	subordconn	_	1	case	_	after
 3	ma	ma	PART	discprt	_	1	advmod	_	BDY
@@ -146,6 +158,7 @@
 
 # sent_id = 13
 # text = Upei roiko upeicha .
+# text_en = Then we lived like this.
 1	Upei	upei	ADV	adv	_	2	advmod	_	afterwards
 2	roiko	iko	VERB	vi:a	_	0	root	_	A1.EXCL-live,be
 3	upeicha	upeicha	ADV	demadv	_	2	advmod	_	DEM
@@ -153,6 +166,7 @@
 
 # sent_id = 14
 # text = Kyrĩngue'i romongakuaa peicha , romba'apo , roñemĩty roñoty avachi hũ'i peicha romongaru .
+# text_en = We raised our children, we worked, we planted black corn, these things we eat.
 1	Kyrĩngue'i	kyringue	NOUN	n	_	2	obj	_	children-=DIM
 2	romongakuaa	mongakuaa	VERB	vt	Clusivity[subj]=Ex|Person[subj]=1|Subcat=Tran	0	root	_	A1.EXCL-CAUS-grow
 3	peicha	upeicha	ADV	demadv	_	2	advmod	_	DEM
@@ -169,6 +183,7 @@
 
 # sent_id = 15
 # text = Upei opa ete marã ka'aguy katu rojeheka ju opaicha ju roiko .
+# text_en = When the forest disappeared, we tried to survive in any way we could.
 1	Upei	upei	ADV	adv	_	2	advmod	_	afterwards
 2	opa	pa	VERB	vi:a	_	0	root	_	A3-finish
 3	ete	ete	PART	intprt	_	2	advmod	_	really
@@ -184,6 +199,7 @@
 
 # sent_id = 16
 # text = Romoĩ mitã oñembo'e aguã jurua rami .
+# text_en = We put the children to school like white people.
 1	Romoĩ	moĩ	VERB	vt	Clusivity[subj]=Ex|Person[subj]=1|Subcat=Tran	0	root	_	A1.EXCL-CAUS-be.localized
 2	mitã	mitã	NOUN	n	_	1	obj	_	child
 3	oñembo'e	ñembo'e	VERB	vi:a	_	1	xcomp	_	A3-learn
@@ -194,6 +210,7 @@
 
 # sent_id = 17
 # text = Upearã che chehistoria , historia , che amombe'u mba'e pa che ajapo ra'e , mba'e tembiapo pa ajapo .
+# text_en = This is my story, I am telling what I did, what kind of work I do.
 1	Upearã	upearã	ADV	adv	_	8	advmod	_	because.of.this
 2	che	che	PRON	pro	Number=Sing|Person=1|PronType=Prs	3	reparandum	_	1.SG
 3	chehistoria	historia	NOUN	n	Number[psor]=Sing	1	discourse	_	B1.SG-story
@@ -216,6 +233,7 @@
 
 # sent_id = 18
 # text = Upei roju , kyrĩngue'i cheremiarirõ tuichapa'i ma ramo .
+# text_en = Then we came [here], when my grandchildren had already grown up.
 1	Upei	upei	ADV	adv	_	2	advmod	_	afterwards
 2	roju	ju	VERB	vi:a	_	0	root	_	A1.EXCL-come
 3	,	,	PUNCT	punct	_	6	punct	_	_
@@ -228,6 +246,7 @@
 
 # sent_id = 19
 # text = Ndoroikuaavei ma mamo pa roo ta , ka'aguy gui rogueru ro'u va'erã .
+# text_en = We didn't know in which forest to go, to find something to eat.
 1	Ndoroikuaavei	kuaa	VERB	vt	Clusivity[subj]=Ex|Person[subj]=1|Polarity=Neg|Subcat=Tran	0	root	_	NEG-A1.EXCL-B3-know-more-NEG
 2	ma	ma	PART	aspprt	_	1	advmod	_	ASP
 3	mamo	mamo	ADV	interadv	PronType=Int	5	advmod	_	where
@@ -244,6 +263,7 @@
 
 # sent_id = 20
 # text = Ni ndaipovei ma tatu , ndaipovei ma kochi , ndaipovei ma guachu .
+# text_en = There are no armadillos left, no wild boars, no deers.
 1	Ni	ni	PART	focprt	_	2	advmod	_	not.even
 2	ndaipovei	ipo	VERB	vi	Polarity=Neg|Subcat=Int	0	root	_	NEG-be-more-NEG
 3	ma	ma	PART	aspprt	_	2	advmod	_	ASP
@@ -260,6 +280,7 @@
 
 # sent_id = 21
 # text = Upei roñea'ã ju romba'apo mi jevy roñoty peicha , ka'aguy opa ma ramo .
+# text_en = Then we strove to do plantations again, since the forest was gone.
 1	Upei	upei	ADV	adv	_	2	advmod	_	afterwards
 2	roñea'ã	ñea'ã	VERB	vd:a	_	0	root	_	A1.EXCL-make.efforts
 3	ju	ju	PART	focprt	_	2	advmod	_	REPET
@@ -277,6 +298,7 @@
 
 # sent_id = 22
 # text = Roñoty ro'u va'erã .
+# text_en = We planted what we would eat.
 1	Roñoty	ño	VERB	vt	Clusivity[subj]=Ex|Person[subj]=1|Subcat=Tran	0	root	_	A1.EXCL-TRANS-plant
 2	ro'u	'u	VERB	vt	Clusivity[subj]=Ex|Person[subj]=1|Subcat=Tran	1	obj	_	A1.EXCL-ingest
 3	va'erã	va'e	SCONJ	rel	_	2	mark	_	REL-FUT
@@ -284,6 +306,7 @@
 
 # sent_id = 23
 # text = Peicha roiko , upei jave py , upe ronguare ou kuri peteĩ jurua kuery , jurua kuery ou peteĩ ara py ovaẽ kuri ko'ape .
+# text_en = We lived like this, and at this time one of the white people arrived, she arrived here.
 1	Peicha	upeicha	ADV	demadv	_	2	advmod	_	DEM
 2	roiko	iko	VERB	vi:a	_	0	root	_	A1.EXCL-live,be
 3	,	,	PUNCT	punct	_	4	punct	_	_
@@ -312,6 +335,7 @@
 
 # sent_id = 24
 # text = Upea ou kuri ore ka'aguy , ore ka'aguyrã'i kirami'i ome'ẽ aguã , kirami'i ome'ẽ aguã ore roma'etỹ'i aguã , oremba'e'i , ha'e py .
+# text_en = She came here and gave us a little bit of forest, a little bit of forest for our plantations, our things, there.
 1	Upea	upea	PRON	dem	PronType=Dem	2	nsubj	_	DEM
 2	ou	u	VERB	vi:a	_	0	root	_	A3-come
 3	kuri	kuri	ADV	adv	_	2	advmod	_	CUR
@@ -339,6 +363,7 @@
 
 # sent_id = 25
 # text = Upeicha roiko , ha'e ymave ramo , chee chekyri'ĩ ronguare upecha e'ỹ va'ekue ri .
+# text_en = And that is how we live, but a long time ago, when I was a child, things were not like this.
 1	Upeicha	upeicha	ADV	demadv	_	2	advmod	_	DEM
 2	roiko	iko	VERB	vi:a	_	0	root	_	A1.EXCL-live,be
 3	,	,	PUNCT	punct	_	11	punct	_	_
@@ -357,6 +382,7 @@
 
 # sent_id = 26
 # text = Heta oĩ ka'aguy mi .
+# text_en = There was a lot of forest.
 1	Heta	eta	PRON	indfpro	PronType=Ind	2	nsubj	_	NPOSSD-a.lot
 2	oĩ	ĩ	VERB	vi:a	_	0	root	_	A3-be.localized
 3	ka'aguy	ka'aguy	NOUN	n	_	2	dislocated	_	forest
@@ -365,6 +391,7 @@
 
 # sent_id = 27
 # text = Ka'aguy heta oĩ upepe ro'u va'erã , heta oĩ va'ekue , tembi'u mi , cho'o .
+# text_en = There was a lot of forest and in it there was a lot of food, a lot of of game.
 1	Ka'aguy	ka'aguy	NOUN	n	_	3	dislocated	_	forest
 2	heta	eta	PRON	indfpro	PronType=Ind	3	nsubj	_	NPOSSD-a.lot
 3	oĩ	ĩ	VERB	vi:a	_	0	root	_	A3-be.localized
@@ -384,6 +411,7 @@
 
 # sent_id = 28
 # text = Upe ronguare ni vaka ro'o ore ndoro'ui teri .
+# text_en = Those days, we didn't even eat beef.
 1	Upe	upe	PRON	dem	PronType=Dem	7	obl	_	DEM
 2	ronguare	ronguare	SCONJ	nmlzer	_	1	mark	_	NMLZ.PAST
 3	ni	ni	PART	focprt	_	5	amod	_	not.even
@@ -396,6 +424,7 @@
 
 # sent_id = 29
 # text = Ha upei ko'agã katu opa oregui upea .
+# text_en = Nowadays, everything that we had was taken from us.
 1	Ha	ha	CCONJ	coordconn	_	5	cc	_	and
 2	upei	upei	ADV	adv	_	5	advmod	_	afterwards
 3	ko'agã	ko'agã	ADV	adv	_	5	advmod	_	now
@@ -407,6 +436,7 @@
 
 # sent_id = 30
 # text = Ko'apy roju rire ma , ou kuri cheñora , Patricia Madre Tierra oje'ea .
+# text_en = After we came here, a woman came, they call her Patricia Madre Tierra.
 1	Ko'apy	ko'apy	ADV	adv	_	2	advmod	_	here
 2	roju	ju	VERB	vi:a	_	6	advcl	_	A1.EXCL-come
 3	rire	rire	SCONJ	subordconn	_	2	mark	_	after
@@ -424,6 +454,7 @@
 
 # sent_id = 31
 # text = Upea kuri ou orepytyvõ'i .
+# text_en = She came to help us.
 1	Upea	upea	PRON	dem	PronType=Dem	3	nsubj	_	DEM
 2	kuri	kuri	ADV	adv	_	3	advmod	_	CUR
 3	ou	u	VERB	vi:a	_	0	root	_	A3-come
@@ -432,6 +463,7 @@
 
 # sent_id = 32
 # text = Upecha vy teĩ ko ore roñea'ã apy , romba'apo pecha .
+# text_en = And in this way we apply ourselves, we work like this.
 1	Upecha	upecha	ADV	demadv	_	6	advmod:sentcon	_	DEM
 2	vy	vy	SCONJ	subordconn	_	1	mark	_	SS
 3	teĩ	teĩ	SCONJ	subordconn	_	1	mark	_	CONC
@@ -446,6 +478,7 @@
 
 # sent_id = 33
 # text = Ha'e chee ave amba'apo upecha , pende reve ko'agã ndee reju upearã ju .
+# text_en = And I work like this too, with you [white people], and now you came here to do this work too.
 1	Ha'e	ha'e	CCONJ	coordconn	_	4	cc	_	and
 2	chee	chee	PRON	pro	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	1.SG
 3	ave	ave	PART	focprt	_	2	amod	_	also
@@ -463,6 +496,7 @@
 
 # sent_id = 34
 # text = Ha'e cheremiarirõ'i kuery oja ramo'i va'e pe guarã .
+# text_en = This is for my grandchildren who were born recently.
 1	Ha'e	ha'e	PRON	pro	Person=3|PronType=Prs	4	dislocated:cleft	_	3
 2	cheremiarirõ'i	emiarirõ	NOUN	n	Number[psor]=Sing	4	nsubj	_	B1.SG-R-grand.child-=DIM
 3	kuery	kuery	PART	quantprt	_	2	clf	_	COL
@@ -475,6 +509,7 @@
 
 # sent_id = 35
 # text = Tembiapo'i jajapo , ñamba'apo'i .
+# text_en = We work, we do this work.
 1	Tembiapo'i	embiapo	NOUN	n	_	2	obj	_	3-NMLZ-do-=DIM
 2	jajapo	apo	VERB	vt	Clusivity[subj]=In|Person[subj]=1|Subcat=Tran	0	root	_	A1.INCL-B3-do
 3	,	,	PUNCT	punct	_	4	punct	_	_
@@ -483,12 +518,14 @@
 
 # sent_id = 36
 # text = Upea arovy'a .
+# text_en = This makes me happy.
 1	Upea	upea	PRON	dem	PronType=Dem	2	obj	_	DEM
 2	arovy'a	rovy'a	VERB	vt	Person[subj]=1|Subcat=Tran	0	root	_	A1.SG-COM-be.happy
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 37
 # text = Cheru Tupã rembiecha py , pecha aiko .
+# text_en = In the sight of my father Tupã, I live like this.
 1	Cheru	u	NOUN	n	Number[psor]=Sing	3	nmod	_	B1.SG-R-father
 2	Tupã	Tupã	PROPN	nprop	_	1	appos	_	Tupã
 3	rembiecha	embiecha	NOUN	n	_	7	obl	_	R-NMLZ-see
@@ -500,6 +537,7 @@
 
 # sent_id = 38
 # text = Chee aa opy rupi , opy areko avi .
+# text_en = I go to the prayer house, I have a prayer house too.
 1	Chee	chee	PRON	pro	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	1.SG
 2	aa	aa	VERB	vi:a	_	0	root	_	go
 3	opy	opy	NOUN	n	_	2	obl	_	inside.a.house
@@ -512,6 +550,7 @@
 
 # sent_id = 39
 # text = Mba'echa vy nda'u cheremiarirõ'i kuery ñevanga reko mi amoñemonã eravy-ravy'i ri nda'u .
+# text_en = In this way I raise my grandchildren who are living their life of children games.
 1	Mba'echa	mba'echa	ADV	interadv	PronType=Int	9	advmod	_	how
 2	vy	vy	SCONJ	subordconn	_	1	mark	_	SS
 3	nda'u	nda'u	PART	qprt	_	1	discourse:q	_	Q
@@ -528,6 +567,7 @@
 
 # sent_id = 40
 # text = Ha'e a rupi chee aiko opy rupi .
+# text_en = I live like this, in the prayer house.
 1	Ha'e	ha'e	VERB	vt	Person[subj]=1|Subcat=Tran	5	advcl	_	A1.SG.say
 2	a	a	SCONJ	nmlzer	_	1	mark	_	NMLZ
 3	rupi	upi	ADP	post	_	1	case	_	R-through
@@ -539,6 +579,7 @@
 
 # sent_id = 41
 # text = Ha'e rami ma vy ndee reju ko'agã .
+# text_en = And so you came, now.
 1	Ha'e	ha'e	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	3
 2	rami	rami	ADP	post	_	1	case	_	like
 3	ma	ma	PART	discprt	_	1	advmod	_	BDY
@@ -550,6 +591,7 @@
 
 # sent_id = 42
 # text = Jajapo tembiapo mi , agã guarã , agã , chee ha'a mi ma rire jepe cheremiarirõ'i kuery oja ramo ramo'i va'e pe guarã .
+# text_en = We do this work, now, in order to leave something to my grandchildren who were born recently, after I am gone.
 1	Jajapo	apo	VERB	vt	Clusivity[subj]=In|Person[subj]=1|Subcat=Tran	0	root	_	A1.INCL-B3-do
 2	tembiapo	embiapo	NOUN	n	_	1	obj	_	NPOSSD-NMLZ-do
 3	mi	mi	PART	intprt	_	2	amod	_	DIM
@@ -577,6 +619,7 @@
 
 # sent_id = 43
 # text = Oreayvu ete'i ore roñembo'e mi , roporaei , ore ñembo'ete'i oikuaa aguã , oreayvu ete'i , orerembi'u ete'i ho'u aguã , ho'u kuaa'i ju aguã .
+# text_en = In order to teach them our true language, our true songs, for them to know our true language, our true food, for them to know how to eat.
 1	Oreayvu	ayvu	NOUN	n	Clusivity=Ex	4	obj	_	B1.EXCL-speech
 2	ete'i	ete	PART	intprt	_	1	amod	_	really-=DIM
 3	ore	ore	PRON	pro	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	1.EXCL
@@ -606,6 +649,7 @@
 
 # sent_id = 44
 # text = Gueno pea peve rãe'i cheayvu .
+# text_en = Well, for now these are my words.
 1	Gueno	gueno	INTJ	interj	_	5	discourse	_	good
 2	pea	upea	PRON	dem	PronType=Dem	5	obl	_	DEM
 3	peve	peve	ADP	post	_	2	case	_	until
@@ -617,6 +661,7 @@
 # document_title = Paulina Romero 03/08/17 #2
 # sent_id = 45
 # text = Ore ore kuery ko peicha ñemongeta rojapo ramo , ndoro'ui yy .
+# text_en = When we gather to talk, we don't drink water.
 1	Ore	ore	PRON	pro	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	2	reparandum	_	1.EXCL
 2	ore	ore	PRON	pro	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	1.EXCL
 3	kuery	kuery	PART	quantprt	_	2	clf	_	COL
@@ -632,6 +677,7 @@
 
 # sent_id = 46
 # text = Ha'e orojapo tembiapo ramo yy ndoro'ui .
+# text_en = And, when we work, we don't drink water.
 1	Ha'e	ha'e	CCONJ	coordconn	_	6	cc	_	and
 2	orojapo	apo	VERB	vt	Clusivity[subj]=Ex|Person[subj]=1|Subcat=Tran	6	advcl	_	A1.EXCL-B3-do
 3	tembiapo	embiapo	NOUN	n	_	2	obj	_	NPOSSD-NMLZ-do
@@ -642,6 +688,7 @@
 
 # sent_id = 47
 # text = Porque ko'ava ndaa'ei tembiapo rei .
+# text_en = Because I do not call this just any kind of work.
 1	Porque	porque	CCONJ	coordconn	_	3	cc	_	because
 2	ko'ava	ko'ava	PRON	dem	PronType=Dem	4	nsubj	_	DEM
 3	ndaa'ei	a'e	VERB	vt	Person[subj]=1|Polarity=Neg|Subcat=Tran	0	root	_	NEG-A1.SG.say-NEG
@@ -651,6 +698,7 @@
 
 # sent_id = 48
 # text = Ha'e tembiapo porãina pea .
+# text_en = This is a beatiful work.
 1	Ha'e	ha'e	CCONJ	coordconn	_	2	cc	_	and
 2	tembiapo	embiapo	NOUN	n	_	0	root	_	NPOSSD-NMLZ-do
 3	porãina	porã	ADJ	vi:i	_	2	amod	_	beautiful-CONT
@@ -659,6 +707,7 @@
 
 # sent_id = 49
 # text = Ha'e chee peicha vy mavoi py ichupe kuera añemoñe'ẽ .
+# text_en = And I always advise them in this way.
 1	Ha'e	ha'e	CCONJ	coordconn	_	9	cc	_	and
 2	chee	chee	PRON	pro	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	1.SG
 3	peicha	upeicha	ADV	demadv	_	9	advmod	_	DEM
@@ -672,6 +721,7 @@
 
 # sent_id = 50
 # text = Opy rupi aguapy mi rire aju pyareve ramo akay'u a'i py añemoñe'ẽ remiarirõ'i kuery pe opy rupi chemoirũ va'ekue pe .
+# text_en = When I am sitting in the prayer house, drinking mate, I advise my grandchildren, who follow me in the prayer house.
 1	Opy	opy	NOUN	n	_	3	obl	_	inside.a.house
 2	rupi	upi	ADP	post	_	1	case	_	R-through
 3	aguapy	guapy	VERB	vi:a	_	12	advcl	_	A1.SG-sit
@@ -696,6 +746,7 @@
 
 # sent_id = 51
 # text = Ha'e che upecha vy ka'ay ha'u jave , cheayvu katu ichupe kuera .
+# text_en = I talk to them in this way, drinking mate.
 1	Ha'e	ha'e	CCONJ	coordconn	_	9	cc	_	and
 2	che	che	PRON	pro	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	1.SG
 3	upecha	upecha	ADV	demadv	_	6	advmod	_	DEM
@@ -712,6 +763,7 @@
 
 # sent_id = 52
 # text = Amombe'u mba'eicha pa oiko arã , mba'e pa ndojapoi arã , mba'e pa ndo'ui arã , mba'e pa ho'u arã .
+# text_en = I tell them how to live, what they shouldn't do, what they shouldn't eat, what they should eat.
 1	Amombe'u	mombe'u	VERB	vt	Person[subj]=1|Subcat=Tran	0	root	_	A1.SG-tell
 2	mba'eicha	mba'eicha	ADV	interadv	PronType=Int	4	advmod	_	how
 3	pa	pa	PART	qprt	_	2	discourse:q	_	Q
@@ -736,6 +788,7 @@
 
 # sent_id = 53
 # text = Porque ore upecha orechy , orejaryi orereroayvu va'ekue .
+# text_en = Because our mothers, our grandmothers advised us like this.
 1	Porque	porque	CCONJ	coordconn	_	7	cc	_	because
 2	ore	ore	PRON	pro	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	7	obj	_	1.EXCL
 3	upecha	upecha	ADV	demadv	_	7	advmod	_	DEM
@@ -748,6 +801,7 @@
 
 # sent_id = 54
 # text = Upecha guare vy chee pecha cheremiarirõ'i kuery pe areko .
+# text_en = In the same way, I look after my grandchildren.
 1	Upecha	upecha	ADV	demadv	_	9	advmod:sentcon	_	DEM
 2	guare	gua	SCONJ	nmlzer	_	1	mark	_	NMLZ-PAST
 3	vy	vy	SCONJ	subordconn	_	1	mark	_	SS
@@ -760,7 +814,8 @@
 10	.	.	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 55
-# text = Aipota gui omoinge iñakã me tembiapo porã , ikatu aguãicha omombyta ikorachõ me pensamiento porã , ha'e opyta aguã ichupe kuera iñakã me mba'e pa , ha'e ichupe kuera oguerokakuaa aguã , okakuaa porã aguã , hechaĩ aguã , oñevanga porã aguã , oñevanga ijyvate peve-peve ogueroñevanga aguã , pe guete rekoachy mi .
+# text = Aipota gui omoinge iñakã me tembiapo porã , ikatu aguãicha omombyta ikorachõ me pensamiento porã , ha'e opyta aguã ichupe kuera iñakã me mba'e pa ha'e ichupe kuera , oguerokakuaa aguã , okakuaa porã aguã , hechaĩ aguã , oñevanga porã aguã , oñevanga ijyvate peve-peve ogueroñevanga aguã , pe guete rekoachy mi .
+# text_en = Also, I want them to put good things in their heads, so that they keep good thoughts in their hearts, and [I want] my advice to stay in their head, that they grow up well, that they be healthy, in order to play well, until they have grown up, in order to play in their imperfect bodies.
 1	Aipota	pota	VERB	vt	Person[subj]=1|Subcat=Tran	0	root	_	A1.SG-B3-want
 2	gui	gui	ADV	adv	_	1	advmod	_	also
 3	omoinge	moinge	VERB	vt	Person[subj]=3|Subcat=Tran	1	ccomp	_	A3-CAUS-go.in
@@ -784,12 +839,12 @@
 21	kuera	kuera	PART	quantprt	_	20	clf	_	COL
 22	iñakã	akã	NOUN	n	_	18	obl	_	B3-head
 23	me	me	ADP	post	_	22	case	_	DAT
-24	mba'e	mba'e	PRON	interpron	PronType=Int	18	nsubj	_	what
+24	mba'e	mba'e	PRON	interpron	PronType=Int	26	obj	_	what
 25	pa	pa	PART	qprt	_	24	discourse:q	_	Q
-26	,	,	PUNCT	punct	_	30	punct	_	_
-27	ha'e	ha'e	CCONJ	coordconn	_	30	cc	_	and
-28	ichupe	ichupe	PRON	pro	Person=3|PronType=Prs	30	obl	_	3.DAT
-29	kuera	kuera	PART	quantprt	_	28	clf	_	COL
+26	ha'e	ha'e	VERB	vt	Person[subj]=1|Subcat=Tran	18	csubj	_	A1.SG.say
+27	ichupe	ichupe	PRON	pro	Person=3|PronType=Prs	26	obl	_	3.DAT
+28	kuera	kuera	PART	quantprt	_	27	clf	_	COL
+29	,	,	PUNCT	punct	_	30	punct	_	_
 30	oguerokakuaa	guerokakuaa	VERB	vt	Person[subj]=3|Subcat=Tran	3	conj	_	A3-COM-grow
 31	aguã	aguã	SCONJ	subordconn	_	30	mark	_	PURP
 32	,	,	PUNCT	punct	_	33	punct	_	_
@@ -818,6 +873,7 @@
 
 # sent_id = 56
 # text = Ha'e rami ma vy che chememby kue'iry pe kyri'ĩ reve aroayvu .
+# text_en = In this way, I advise my sons, when they are children.
 1	Ha'e	ha'e	PRON	pro	Person=3|PronType=Prs	11	obl:sentcon	_	3
 2	rami	rami	ADP	post	_	1	case	_	like
 3	ma	ma	PART	discprt	_	1	advmod	_	BDY
@@ -833,6 +889,7 @@
 
 # sent_id = 57
 # text = Kyri'ĩ reve aroayvu mba'eicha pa oiko arã , mba'e pa ojapo arã .
+# text_en = When they are children I advise my sons to tell them how to live, what they should do.
 1	Kyri'ĩ	kyrĩ	VERB	vi:i	_	3	advcl	_	small-=DIM
 2	reve	eve	SCONJ	subordconn	_	1	mark	_	R-since
 3	aroayvu	roayvu	VERB	vt	Person[subj]=1|Subcat=Tran	0	root	_	A1.SG-COM-speak
@@ -849,6 +906,7 @@
 
 # sent_id = 58
 # text = " Aromeno ko'agã ka'aguy opa ma ", ha'e'i ichupe kuery .
+# text_en = "Halas, nowadays the forest is gone", I tell them.
 1	"	"	PUNCT	punct	_	5	punct	_	_
 2	Aromeno	aromeno	ADV	adv	_	5	advmod	_	unfortunately
 3	ko'agã	ko'agã	ADV	adv	_	5	advmod	_	now
@@ -863,6 +921,7 @@
 
 # sent_id = 59
 # text = Ha'e javive cheremiarirõ'i pe aroñe'ẽ ñande ñama'ety'i arã , ñañoty'i arã avachi hũ'i , opa ma ramo ka'aguy rupi , ka'aguy opa ma ramo .
+# text_en = I also tell my grandchildren that we must plant black corn, since the forest has disappeared.
 1	Ha'e	ha'e	PRON	pro	Person=3|PronType=Prs	3	det	_	3
 2	javive	javi	ADJ	quant	_	1	amod	_	all-more
 3	cheremiarirõ'i	emiarirõ	NOUN	n	Number[psor]=Sing	5	obl	_	B1.SG-R-grand.child-=DIM
@@ -891,6 +950,7 @@
 
 # sent_id = 60
 # text = Nañoty'i arã guembe , ha'e .
+# text_en = I say that we must plant guembe.
 1	Nañoty'i	ñotỹ	VERB	vt	Clusivity[subj]=In|Person[subj]=1|Subcat=Tran	5	ccomp	_	A1.INCL-TRANS-plant-=DIM
 2	arã	a	SCONJ	nmlzer	_	1	mark	_	NMLZ-FUT
 3	guembe	guembe	NOUN	n	_	1	obj	_	guembe
@@ -900,6 +960,7 @@
 
 # sent_id = 61
 # text = Ha'e rami vy chee pecha areko , ore orekyri'ĩ my , orechy , orejaryi pecha orereko va'ekue .
+# text_en = I live like this, because this is how our mothers, our grandmothers raised us.
 1	Ha'e	ha'e	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	3
 2	rami	rami	ADP	post	_	1	case	_	like
 3	vy	vy	SCONJ	subordconn	_	1	mark	_	SS
@@ -921,6 +982,7 @@
 
 # sent_id = 62
 # text = Aroñoty'i ma vy avachi'i opy rupi guarã , ha'e guembe ijaju'i ma , hi'aju ma , ijavovo'i ma okuapy ma ramo , opy rupi guarã avi , cheremiarirõ'i kuery pe aru .
+# text_en = When we plant corn it is for the prayer house, and the guembe that is ripe, that is bursting, it is also for the prayer house, and I bring it to my grandchildren.
 1	Aroñoty'i	roñotỹ	VERB	vt	Person[subj]=1|Subcat=Tran	5	dislocated:cleft	_	A1.SG-COM-TRANS-plant-=DIM
 2	ma	ma	PART	aspprt	_	1	advmod	_	ASP
 3	vy	vy	SCONJ	subordconn	_	1	mark	_	SS
@@ -956,6 +1018,7 @@
 
 # sent_id = 63
 # text = Upea ko ñandejara Tupã oeja yvy py , yvy rekoachy py , yvyra re oeja omoiny , ja'u va'erã .
+# text_en = These things, our father Tupã left them on this imperfect earth, in the trunk of the trees, for us to eat.
 1	Upea	upea	PRON	dem	PronType=Dem	5	obj	_	DEM
 2	ko	ko	PART	illocprt	_	1	amod	_	EPIS
 3	ñandejara	ñandejara	NOUN	n	Clusivity=In	5	nsubj	_	B1.INCL-lord
@@ -979,6 +1042,7 @@
 
 # sent_id = 64
 # text = Tupã ojapo va'ekue upea , avachi ha'e avi .
+# text_en = These things were made by Tupã, and corn too.
 1	Tupã	Tupã	PROPN	nprop	_	2	nsubj	_	Tupã
 2	ojapo	apo	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	A3-B3-do
 3	va'ekue	va'e	SCONJ	rel	_	2	mark	_	REL-PAST
@@ -991,6 +1055,7 @@
 
 # sent_id = 65
 # text = Ha'e rami ma vy chee ha'e ichupe kuera , ichyrã kuery pe , mba'eicha pa oiko arã , mba'e pa rojapo arã .
+# text_en = In this way, I tell them, the future mothers, how one should live, what one should do.
 1	Ha'e	ha'e	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	3
 2	rami	rami	ADP	post	_	1	case	_	like
 3	ma	ma	PART	discprt	_	1	advmod	_	BDY
@@ -1017,6 +1082,7 @@
 
 # sent_id = 66
 # text = Aroike mi opy rupi pono pe chereko omokañy .
+# text_en = I always go to the prayer house with them, so that we don't lose our way of life.
 1	Aroike	roike	VERB	vt	Person[subj]=1|Subcat=Tran	0	root	_	A1.SG-COM-go.in
 2	mi	mi	PART	intprt	_	1	advmod	_	DIM
 3	opy	opy	NOUN	n	_	1	obl	_	inside.a.house
@@ -1029,6 +1095,7 @@
 
 # sent_id = 67
 # text = " Mbegueve-gueve rupi " he'i va'ekue cheru " jaje'apa 'rã ".
+# text_en = My father always said: "We will all get mixed up."
 1	"	"	PUNCT	punct	_	2	punct	_	_
 2	Mbegueve-gueve	mbegue	ADV	adv	_	9	advmod	_	surreptitiously-more-REDUP
 3	rupi	upi	ADP	post	_	2	case	_	R-through
@@ -1043,6 +1110,7 @@
 
 # sent_id = 68
 # text = Aỹ ko ndapechai poteri mba'eve , ndapechai teri , jurua ramingua .
+# text_en = And until now we haven't seen anything, we don't see anyone who behaves like white people.
 1	Aỹ	aỹ	ADV	adv	_	3	advmod	_	now
 2	ko	ko	PART	illocprt	_	1	advmod	_	EPIS
 3	ndapechai	echa	VERB	vt	Person[subj]=2|Polarity=Neg|Subcat=Tran	0	root	_	NEG-A2.PL-see-NEG
@@ -1058,6 +1126,7 @@
 
 # sent_id = 69
 # text = Jurua kuery , ko'agã jurua ete , jurua ete jaecha pokã-pokã , ijayvua Guarani me jaecha .
+# text_en = The white people, we see very few, what we see is people who speak guarani.
 1	Jurua	jurua	NOUN	n	_	8	reparandum	_	non.indigenous
 2	kuery	kuery	PART	quantprt	_	1	clf	_	COL
 3	,	,	PUNCT	punct	_	4	punct	_	_
@@ -1078,6 +1147,7 @@
 
 # sent_id = 70
 # text = " Upea agã jaikuaapa arã jurua ayvu reko agã ", he'i va'ekue cheru .
+# text_en = "And in this way we will all learn the language of the white people", my father used to say.
 1	"	"	PUNCT	punct	_	4	punct	_	_
 2	Upea	upea	PRON	dem	PronType=Dem	4	obl	_	DEM
 3	agã	agã	ADV	adv	_	4	advmod	_	today
@@ -1095,6 +1165,7 @@
 
 # sent_id = 71
 # text = " Ha upei agã te tiempo jave a ramive , mondo ipukuve ovy-ovy a ramive , jaecha arã iguarani e'ỹ rei'i va'e ", he'i va'ekue cheru .
+# text_en = "As time goes by, the world gets older, we will see people who don't speak guarany anymore", my father used to say.
 1	"	"	PUNCT	punct	_	17	punct	_	_
 2	Ha	ha	CCONJ	coordconn	_	17	cc	_	and
 3	upei	upei	ADV	adv	_	17	advmod	_	afterwards
@@ -1124,36 +1195,36 @@
 27	.	.	PUNCT	punct	_	24	punct	_	_
 
 # sent_id = 72
-# text = Ha'e va'e re nememby kue'iry , neremiarirõ'i kuery pe eekombo'e porã'i ke erekovy , he'i ague rami .
-1	Ha'e	ha'e	PRON	pro	Person=3|PronType=Prs	10	obl:sentcon	_	3
+# text = Ha'e va'e re " nememby kue'iry , neremiarirõ'i kuery pe eekombo'e porã'i ke erekovy " he'i ague rami , aỹ cheremiarirõ'i chemoirũ oiny .
+# text_en = As he said "always teach your sons, your grandchildren how to live well", today I always look after my grandchildren.
+1	Ha'e	ha'e	PRON	pro	Person=3|PronType=Prs	22	obl:sentcon	_	3
 2	va'e	va'e	SCONJ	rel	_	1	mark	_	REL
 3	re	e	ADP	post	_	1	case	_	R-ABL
-4	nememby	memby	NOUN	n	Number[psor]=Sing	10	obl	_	B2.SG-son.of.woman
-5	kue'iry	kue'iry	PART	quantprt	_	4	clf	_	COL
-6	,	,	PUNCT	punct	_	4	punct	_	_
-7	neremiarirõ'i	emiarirõ	NOUN	n	Number[psor]=Sing	4	conj	_	B2.SG-R-grand.child-=DIM
-8	kuery	kuery	PART	quantprt	_	7	clf	_	COL
-9	pe	pe	ADP	post	_	4	case	_	DAT
-10	eekombo'e	ekombo'e	VERB	vt	Person[subj]=2|Subcat=Tran	0	root	_	2.SG.IMP-way.of.life-teach
-11	porã'i	porã	ADV	adv	_	10	advmod	_	well/a.lot-=DIM
-12	ke	ke	PART	illocprt	_	10	advmod	_	IMP
-13	erekovy	eroiko	VERB	vs	VerbForm=Ser	10	compound:svc	_	COM-walk-V2
-14	,	,	PUNCT	punct	_	15	punct	_	_
-15	he'i	he'i	VERB	vt	Person[subj]=3|Subcat=Tran	10	advcl	_	A3.say
-16	ague	a	SCONJ	nmlzer	_	15	mark	_	NMLZ-PAST
-17	rami	rami	ADP	post	_	15	case	_	like
-18	.	.	PUNCT	punct	_	15	punct	_	_
+4	"	"	PUNCT	punct	_	5	punct	_	_
+5	nememby	memby	NOUN	n	Number[psor]=Sing	11	obl	_	B2.SG-son.of.woman
+6	kue'iry	kue'iry	PART	quantprt	_	5	clf	_	COL
+7	,	,	PUNCT	punct	_	5	punct	_	_
+8	neremiarirõ'i	emiarirõ	NOUN	n	Number[psor]=Sing	5	conj	_	B2.SG-R-grand.child-=DIM
+9	kuery	kuery	PART	quantprt	_	8	clf	_	COL
+10	pe	pe	ADP	post	_	5	case	_	DAT
+11	eekombo'e	ekombo'e	VERB	vt	Person[subj]=2|Subcat=Tran	16	parataxis:rep	_	2.SG.IMP-way.of.life-teach
+12	porã'i	porã	ADV	adv	_	11	advmod	_	well/a.lot-=DIM
+13	ke	ke	PART	illocprt	_	11	advmod	_	IMP
+14	erekovy	eroiko	VERB	vs	VerbForm=Ser	11	compound:svc	_	COM-walk-V2
+15	"	"	PUNCT	punct	_	11	punct	_	_
+16	he'i	he'i	VERB	vt	Person[subj]=3|Subcat=Tran	22	advcl	_	A3.say
+17	ague	a	SCONJ	nmlzer	_	16	mark	_	NMLZ-PAST
+18	rami	rami	ADP	post	_	16	case	_	like
+19	,	,	PUNCT	punct	_	16	punct	_	_
+20	aỹ	aỹ	ADV	adv	_	22	advmod	_	now
+21	cheremiarirõ'i	emiarirõ	NOUN	n	Number[psor]=Sing	22	nsubj	_	B1.SG-R-grand.child-=DIM
+22	chemoirũ	moirũ	VERB	vt	Person[obj]=1|Subcat=Tran	0	root	_	B1.SG-CAUS-friend
+23	oiny	ĩ	VERB	vs	Person=3|VerbForm=Ser	22	compound:svc	_	A3-be.localized-V2
+24	.	.	PUNCT	punct	_	22	punct	_	_
 
 # sent_id = 73
-# text = Aỹ cheremiarirõ'i chemoirũ oiny .
-1	Aỹ	aỹ	ADV	adv	_	3	advmod	_	now
-2	cheremiarirõ'i	emiarirõ	NOUN	n	Number[psor]=Sing	3	nsubj	_	B1.SG-R-grand.child-=DIM
-3	chemoirũ	moirũ	VERB	vt	Person[obj]=1|Subcat=Tran	0	root	_	B1.SG-CAUS-friend
-4	oiny	ĩ	VERB	vs	Person=3|VerbForm=Ser	3	compound:svc	_	A3-be.localized-V2
-5	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id = 74
 # text = Chee cheru he'i va'ekue ajapo , chetuva rekoachy yvy py .
+# text_en = I follow my father's advice, the imperfection of my father on this earth.
 1	Chee	chee	PRON	pro	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	1.SG
 2	cheru	u	NOUN	n	Number[psor]=Sing	3	nsubj	_	B1.SG-R-father
 3	he'i	he'i	VERB	vt	Person[subj]=3|Subcat=Tran	5	obj	_	A3.say
@@ -1166,8 +1237,9 @@
 10	py	py	ADP	post	_	9	case	_	in
 11	.	.	PUNCT	punct	_	8	punct	_	_
 
-# sent_id = 75
+# sent_id = 74
 # text = Cheapoare chetuva upecha chereroñe'ẽ va'ekue .
+# text_en = My progenitor, my father, talked to me like this.
 1	Cheapoare	apoa	NOUN	n	Number[psor]=Sing	4	nsubj	_	B1.SG-do-AG.NMLZ-PAST
 2	chetuva	tuva	NOUN	n	Number[psor]=Sing	1	appos	_	B1.SG-father
 3	upecha	upecha	ADV	demadv	_	4	advmod	_	DEM
@@ -1175,8 +1247,9 @@
 5	va'ekue	va'e	SCONJ	rel	_	4	mark	_	REL-PAST
 6	.	.	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 76
+# sent_id = 75
 # text = Ha'e vy teĩ ko ore ñemongeta mi rojapo ramo , ore romombe'u mba'eicha pa oñevanga mi arã , mba'e ñevanga reko py pa oiko arã .
+# text_en = And thus, when we gather, we always tell [children] how they should play, how they should live their playful life.
 1	Ha'e	ha'e	PRON	pro	Person=3|PronType=Prs	12	obl:sentcon	_	3
 2	vy	vy	SCONJ	subordconn	_	1	mark	_	SS
 3	teĩ	teĩ	SCONJ	subordconn	_	1	mark	_	CONC
@@ -1204,8 +1277,9 @@
 25	arã	a	SCONJ	nmlzer	_	24	mark	_	NMLZ-FUT
 26	.	.	PUNCT	punct	_	24	punct	_	_
 
-# sent_id = 77
+# sent_id = 76
 # text = Mokoĩ ñevanga reko ma aỹ jareko ha'e jepi ichupe kuera ajeve rã mokoĩ teko , jaraa porã arã peteĩ jokota re porã peteĩcha jaraa porã arã , ñandereko , ñanerembiapo , ha'e .
+# text_en = Now, we have two playful lives, I always tell them that we have two lives, and we must lead them side by side in order to lead them well, our life, our work, I say.
 1	Mokoĩ	mokoĩ	NUM	num	_	3	nummod	_	two
 2	ñevanga	ñevanga	NOUN	n	_	3	nmod	_	play
 3	reko	eko	NOUN	n	_	6	obj	_	R-way.of.life
@@ -1240,8 +1314,9 @@
 32	ha'e	ha'e	VERB	vt	Subcat=Tran	6	parataxis	_	A1SG.say
 33	.	.	PUNCT	punct	_	32	punct	_	_
 
-# sent_id = 78
+# sent_id = 77
 # text = Pecha jurua kuery rami oñembo'e ta va'e re aipoa'e , porque chee cheguaimĩ'i ha'ora aa arã pende gui , ha'e aa rire cherakykue py , chee cherembiapokue mi pono pemokañy .
+# text_en = This is how I speak to those who will study like white people, because I am old now and I will leave you, and so that you don't lose my work behind me after I leave you.
 1	Pecha	upecha	ADV	demadv	_	9	advmod	_	DEM
 2	jurua	jurua	NOUN	n	_	5	obl	_	non.indigenous
 3	kuery	kuery	PART	quantprt	_	2	clf	_	COL
@@ -1274,8 +1349,9 @@
 30	pemokañy	mokañy	VERB	vt	Person[subj]=2|Subcat=Tran	9	advcl	_	A2.PL-CAUS-get.lost
 31	.	.	PUNCT	punct	_	30	punct	_	_
 
-# sent_id = 79
+# sent_id = 78
 # text = Jurua rami tembiapo reko pereko vy jepe , opy rupi ani penderecharãi , ha'e jepi pendevy .
+# text_en = Even if you work like white people, you must never forget the prayer house, I always tell you this.
 1	Jurua	jurua	NOUN	n	_	5	obl	_	non.indigenous
 2	rami	rami	ADP	post	_	1	case	_	like
 3	tembiapo	embiapo	NOUN	n	_	4	nmod	_	NPOSSD-NMLZ-do
@@ -1294,8 +1370,9 @@
 16	pendevy	pendevy	PRON	pro	Number=Plur|Person=2|PronType=Prs	14	obl	_	B2.PL-DAT
 17	.	.	PUNCT	punct	_	14	punct	_	_
 
-# sent_id = 80
+# sent_id = 79
 # text = Ko'agã ndevy pe ha'e ainy chepi'a'i , ereikuaa aguã , erendu aguã .
+# text_en = Right now I am talking to you my grandson, so you know and you listen.
 1	Ko'agã	ko'agã	ADV	adv	_	4	advmod	_	now
 2	ndevy	ndeevy	PRON	pro	Number=Sing|Person=2|PronType=Prs	4	obl	_	2.SG-DAT
 3	pe	pe	ADP	post	_	2	case	_	DOM
@@ -1310,8 +1387,9 @@
 12	aguã	aguã	SCONJ	subordconn	_	11	mark	_	PURP
 13	.	.	PUNCT	punct	_	11	punct	_	_
 
-# sent_id = 81
+# sent_id = 80
 # text = Mava'e nda'u cheremiarirõ'i cherembiapo oguereko mi erekovy ?
+# text_en = Which of my grandchildren will continue my work?
 1	Mava'e	mava'e	DET	interpron	PronType=Int	3	det	_	who
 2	nda'u	nda'u	PART	qprt	_	1	discourse:q	_	Q
 3	cheremiarirõ'i	emiarirõ	NOUN	n	Number[psor]=Sing	5	nsubj	_	B1.SG-R-grand.child-=DIM
@@ -1321,8 +1399,9 @@
 7	erekovy	eroiko	VERB	vs	VerbForm=Ser	5	compound:svc	_	COM-walk-V2
 8	?	?	PUNCT	punct	_	5	punct	_	_
 
-# sent_id = 82
+# sent_id = 81
 # text = Kuña va'e , kuña'i va'e , ha'e ava'i va'e ave nda'u ?
+# text_en = The women, the girls, and the boys?
 1	Kuña	kuña	NOUN	n	_	0	root	_	woman
 2	va'e	va'e	SCONJ	rel	_	1	mark	_	REL
 3	,	,	PUNCT	punct	_	1	punct	_	_
@@ -1336,15 +1415,17 @@
 11	nda'u	nda'u	PART	qprt	_	8	discourse:q	_	Q
 12	?	?	PUNCT	punct	_	8	punct	_	_
 
-# sent_id = 83
+# sent_id = 82
 # text = Mava'e oikuaa pota ?
+# text_en = Who will try to know?
 1	Mava'e	mava'e	PRON	interpron	PronType=Int	2	nsubj	_	who
 2	oikuaa	kuaa	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	A3-B3-know
 3	pota	pota	VERB	vpos	VerbForm=Post	2	compound:svc	_	try
 4	?	?	PUNCT	punct	_	2	punct	_	_
 
-# sent_id = 84
+# sent_id = 83
 # text = Ha'e a rupi chee aiko .
+# text_en = This is always on my mind.
 1	Ha'e	ha'e	VERB	vt	Subcat=Tran	5	obl	_	A1SG.say
 2	a	a	SCONJ	nmlzer	_	1	mark	_	NMLZ
 3	rupi	upi	ADP	post	_	1	case	_	R-through
@@ -1352,8 +1433,9 @@
 5	aiko	iko	VERB	vi:a	_	0	root	_	A1.SG-live,be
 6	.	.	PUNCT	punct	_	5	punct	_	_
 
-# sent_id = 85
+# sent_id = 84
 # text = Upea peve rãe'i , cheayvu .
+# text_en = These are my words.
 1	Upea	upea	PRON	dem	PronType=Dem	5	obl	_	DEM
 2	peve	peve	ADP	post	_	1	case	_	until
 3	rãe'i	rãe	ADV	adv	_	1	advmod	_	first-=DIM
@@ -1363,8 +1445,9 @@
 
 # document_source = Interview with Paulina Romero 03/08/17, Ytu community, Paraguay
 # document_title = Paulina Romero 03/08/17 #3
-# sent_id = 86
+# sent_id = 85
 # text = Chee ko , mbyky'i ete'i cheayvu ju ta .
+# text_en = I am going to talk a bit more.
 1	Chee	chee	PRON	pro	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	1.SG
 2	ko	ko	PART	illocprt	_	1	amod	_	EPIS
 3	,	,	PUNCT	punct	_	1	punct	_	_
@@ -1375,8 +1458,9 @@
 8	ta	ta	PART	aspprt	_	6	advmod	_	PROSP
 9	.	.	PUNCT	punct	_	6	punct	_	_
 
-# sent_id = 87
+# sent_id = 86
 # text = Ha'e , ore ko roguapy rojapo ñemongeta .
+# text_en = So, we gathered sitting.
 1	Ha'e	ha'e	CCONJ	coordconn	_	5	cc	_	and
 2	,	,	PUNCT	punct	_	1	punct	_	_
 3	ore	ore	PRON	pro	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	1.EXCL
@@ -1386,15 +1470,17 @@
 7	ñemongeta	ñemongeta	NOUN	n	_	6	obj	_	discourse
 8	.	.	PUNCT	punct	_	5	punct	_	_
 
-# sent_id = 88
+# sent_id = 87
 # text = Ñanderu Tupã oecha .
+# text_en = And our father Tupã watches.
 1	Ñanderu	ñandeu	NOUN	n	_	3	nsubj	_	1.INCL-R-father
 2	Tupã	Tupã	PROPN	nprop	_	1	appos	_	Tupã
 3	oecha	echa	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	A3-see
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
-# sent_id = 89
+# sent_id = 88
 # text = Ha'e kyrĩgue'i apy oiko va'e pavẽ'i me , ñaneñe'ẽ rekoachy mi pecha amoñendu va , aipota ha'e pavẽ oendu .
+# text_en = The children who live here, I want to tell them our imperfect words, I want them all to hear them.
 1	Ha'e	ha'e	CCONJ	coordconn	_	16	cc	_	and
 2	kyrĩgue'i	kyrĩ	NOUN	n	Number=Plur	16	dislocated	_	child-PL-=DIM
 3	apy	apy	ADV	demadv	_	4	advmod	_	DEM
@@ -1416,8 +1502,9 @@
 19	oendu	endu	VERB	vt	Person[subj]=3|Subcat=Tran	16	ccomp	_	A3-hear
 20	.	.	PUNCT	punct	_	16	punct	_	_
 
-# sent_id = 90
+# sent_id = 89
 # text = " Añete he'i po ra'e chejaryi ."
+# text_en = "It is true what our grandmother says."
 1	"	"	PUNCT	punct	_	3	punct	_	_
 2	Añete	añete	NOUN	n	_	3	obj	_	truth
 3	he'i	he'i	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	A3.say
@@ -1426,8 +1513,9 @@
 6	chejaryi	jaryi	NOUN	n	Number[psor]=Sing	3	nsubj	_	B1.SG-grandmother
 7	."	."	PUNCT	punct	_	3	punct	_	_
 
-# sent_id = 91
+# sent_id = 90
 # text = " Ñande , ñanderayvu ra'e , añete'i po ra'e ñande , ñandevy pe oña'ã oikovy , chejaryi ."
+# text_en = "She truly loves us, she works for us, our grandmother."
 1	"	"	PUNCT	punct	_	4	punct	_	_
 2	Ñande	ñande	PRON	pro	Clusivity=In|Number=Plur|Person=1|PronType=Prs	4	obj	_	1.INCL
 3	,	,	PUNCT	punct	_	2	punct	_	_
@@ -1447,8 +1535,9 @@
 17	chejaryi	jaryi	NOUN	n	Number[psor]=Sing	14	nsubj	_	B1.SG-grandmother
 18	."	."	PUNCT	punct	_	14	punct	_	_
 
-# sent_id = 92
+# sent_id = 91
 # text = He'i aguã rami aipota omoñendu imoiny , oendu aguã , oikuaa aguã , ñanerembiapo , ñande mokoĩ'i pecha jajoguereko , ikatu arã ha'e kuery ojopy avi ñanerembiapo mi oiko ja'e ague'i rami , ojapo ñande ñandepy'a ñeñandu pe jareko va .
+# text_en = I would like them to talk about me in this way, so that they learn and know our work, this is what the two of us do, so that they benefit from our work and live according to our words, so that they do what we feel in our hearts.
 1	He'i	he'i	VERB	vt	Person[subj]=3|Subcat=Tran	4	advcl	_	A3.say
 2	aguã	aguã	SCONJ	subordconn	_	1	mark	_	PURP
 3	rami	rami	ADP	post	_	1	case	_	like
@@ -1491,16 +1580,18 @@
 40	va	va	SCONJ	rel	_	39	mark	_	REL
 41	.	.	PUNCT	punct	_	34	punct	_	_
 
-# sent_id = 93
+# sent_id = 92
 # text = Mba'echa pa ñande jaiko ?
+# text_en = How do we live?
 1	Mba'echa	mba'echa	ADV	interadv	PronType=Int	4	advmod	_	how
 2	pa	pa	PART	qprt	_	1	discourse:q	_	Q
 3	ñande	ñande	PRON	pro	Clusivity=In|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	1.INCL
 4	jaiko	iko	VERB	vi:a	_	0	root	_	A1.INCL-live,be
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 94
+# sent_id = 93
 # text = Ñande ko kova'e re ñaikotevẽ .
+# text_en = We need this.
 1	Ñande	ñande	PRON	pro	Clusivity=In|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	1.INCL
 2	ko	ko	PART	illocprt	_	1	amod	_	EPIS
 3	kova'e	kova'e	PRON	dem	PronType=Dem	5	obl	_	DEM-REL
@@ -1508,8 +1599,9 @@
 5	ñaikotevẽ	kotevẽ	VERB	vt	Clusivity[subj]=In|Person[subj]=1|Subcat=Tran	0	root	_	A1.INCL-B3-need
 6	.	.	PUNCT	punct	_	5	punct	_	_
 
-# sent_id = 95
+# sent_id = 94
 # text = Ñanderuvicha , cacique oikotevẽ kova'e re .
+# text_en = Our leaders, the caciques, they need this.
 1	Ñanderuvicha	ñandeuvicha	NOUN	n	Clusivity=In	4	nsubj	_	B1.INCL-R-leader
 2	,	,	PUNCT	punct	_	3	punct	_	_
 3	cacique	cacique	NOUN	n	_	1	appos	_	leader
@@ -1518,8 +1610,9 @@
 6	re	e	ADP	post	_	5	case	_	R-ABL
 7	.	.	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 96
+# sent_id = 95
 # text = Ha'e pavẽ ñandejaryi kuery pendejaryi kuery oikotevẽ kova'e , kova'e tembiapo ñaroña'ã erekovy va'e re , ha'e va'e re tove arã .
+# text_en = All of our elders, all of your elders need this work to which we are applying ourselves.
 1	Ha'e	ha'e	PRON	pro	Person=3|PronType=Prs	3	det	_	3
 2	pavẽ	pavẽ	DET	quant	_	1	amod	_	all
 3	ñandejaryi	ñandejaryi	NOUN	n	Clusivity=In	7	nsubj	_	B1.INCL-grandmother
@@ -1543,8 +1636,9 @@
 21	arã	a	SCONJ	nmlzer	_	17	mark	_	NMLZ-FUT
 22	.	.	PUNCT	punct	_	17	punct	_	_
 
-# sent_id = 97
+# sent_id = 96
 # text = Ñanderu Tupã , ñanerembiapo mi tojapouka rekovy .
+# text_en = Our father Tupã, look at our work.
 1	Ñanderu	ñandeu	NOUN	n	_	6	vocative	_	1.INCL-R-father
 2	Tupã	Tupã	PROPN	nprop	_	1	appos	_	Tupã
 3	,	,	PUNCT	punct	_	1	punct	_	_
@@ -1554,8 +1648,9 @@
 7	rekovy	riko	VERB	vs	VerbForm=Ser	6	compound:svc	_	COM-live,be-V2
 8	.	.	PUNCT	punct	_	6	punct	_	_
 
-# sent_id = 98
+# sent_id = 97
 # text = Jurua kuery rei'i ikuai rã jepe , jurua kuery reve'i pecha ñandeayvu rã jepe , tove tojapouka porã'i ñandevy , ñandevy pe guarã , pendevy pe guarã , kyrĩgue'i oja ramo'i va'e pe guarã .
+# text_en = Even though there are white people, even though we speak with white people, let our work be beautiful, for us, for you, for the children who were just born.
 1	Jurua	jurua	NOUN	n	_	4	nsubj	_	non.indigenous
 2	kuery	kuery	PART	quantprt	_	1	clf	_	COL
 3	rei'i	rei	PART	intprt	_	1	amod	_	INT-=DIM
@@ -1592,8 +1687,9 @@
 34	guarã	gua	SCONJ	nmlzer	_	30	mark	_	NMLZ-FUT
 35	.	.	PUNCT	punct	_	29	punct	_	_
 
-# sent_id = 99
+# sent_id = 98
 # text = Ha'eve ma cheayvu agã remoñendu mi ta agã , cheremiarirõ'i kuery pe , chememby'i kuery pe toendu mi agã mba'e pa ha'e .
+# text_en = Good, now let my grandchildren and my children listen to my words.
 1	Ha'eve	a'eve	VERB	vi:i	_	5	discourse	_	B3-good
 2	ma	ma	PART	discprt	_	1	advmod	_	BDY
 3	cheayvu	ayvu	VERB	vi:i	_	5	obj	_	B1.SG-speak

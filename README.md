@@ -22,6 +22,12 @@ Special thanks are due to Paulina Kerechu Núñez Romero for allowing us to use 
 
 * Kim Gerdes, 2013. Collaborative dependency annotation. In Journal Proceedings of the second international conference on dependency linguistics (DepLing 2013), 88-97.
 
+
+# Changelog
+
+* 2019-05-15 v2.4
+  * Initial release in Universal Dependencies.
+
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.4

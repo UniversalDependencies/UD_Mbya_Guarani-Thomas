@@ -58,8 +58,8 @@
 12	umia	umia	PRON	dem	PronType=Dem	4	conj	_	DEM.PL
 13	,	,	PUNCT	punct	_	14	punct	_	_
 14	opa	pa	VERB	vi:a	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	1	conj	_	A3-finish
-15	voi	voi	ADV	temprt	_	14	advmod	_	early
-16	kuri	kuri	ADV	temprt	_	14	advmod	_	CUR
+15	voi	voi	PART	temprt	_	14	advmod	_	early
+16	kuri	kuri	PART	temprt	_	14	advmod	_	CUR
 17	.	.	PUNCT	punct	_	14	punct	_	_
 
 # sent_id = 6
@@ -106,7 +106,7 @@
 6	oñevanga	ñevanga	VERB	vi:a	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	1	advcl	_	A3-play
 7	aguã	aguã	SCONJ	subordconn	_	6	mark	_	PURP
 8	rei	rei	PART	intprt	_	6	advmod	_	INT
-9	jepe	jepe	ADV	discprt	_	6	advmod	_	CONC
+9	jepe	jepe	PART	discprt	_	6	advmod	_	CONC
 10	ndaipovei	ipo	VERB	vi	Mood=Ind|Polarity=Neg|Subcat=Int|VerbForm=Inf	1	conj	_	NEG-be-more-NEG
 11	ma	ma	PART	aspprt	_	10	advmod	_	ASP
 12	.	.	PUNCT	punct	_	10	punct	_	_
@@ -146,7 +146,7 @@
 
 # sent_id = 13
 # text = Upei roiko upeicha .
-1	Upei	upei	ADV	discprt	_	2	advmod	_	afterwards
+1	Upei	upei	PART	discprt	_	2	advmod	_	afterwards
 2	roiko	iko	VERB	vi:a	Clusivity[subj]=Ex|Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	0	root	_	A1.EXCL-live,be
 3	upeicha	upeicha	ADV	dem	_	2	advmod	_	DEM
 4	.	.	PUNCT	punct	_	2	punct	_	_
@@ -169,7 +169,7 @@
 
 # sent_id = 15
 # text = Upei opa ete marã ka'aguy katu rojeheka ju opaicha ju roiko .
-1	Upei	upei	ADV	discprt	_	2	advmod	_	afterwards
+1	Upei	upei	PART	discprt	_	2	advmod	_	afterwards
 2	opa	pa	VERB	vi:a	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	A3-finish
 3	ete	ete	PART	intprt	_	2	advmod	_	really
 4	marã	marã	VERB	vi:i	Mood=Ind|Subcat=Int|VerbForm=Inf	2	compound:svc	_	decay
@@ -194,7 +194,7 @@
 
 # sent_id = 17
 # text = Upearã che chehistoria , historia , che amombe'u mba'e pa che ajapo ra'e , mba'e tembiapo pa ajapo .
-1	Upearã	upearã	ADV	discprt	_	8	advmod	_	because.of.this
+1	Upearã	upearã	PART	discprt	_	8	advmod	_	because.of.this
 2	che	che	PRON	pro	Number=Sing|Person=1|PronType=Prs	3	reparandum	_	1.SG
 3	chehistoria	historia	NOUN	n	Number[psor]=Sing	1	discourse	_	B1.SG-story
 4	,	,	PUNCT	punct	_	5	punct	_	_
@@ -216,7 +216,7 @@
 
 # sent_id = 18
 # text = Upei roju , kyrĩngue'i cheremiarirõ tuichapa'i ma ramo .
-1	Upei	upei	ADV	discprt	_	2	advmod	_	afterwards
+1	Upei	upei	PART	discprt	_	2	advmod	_	afterwards
 2	roju	ju	VERB	vi:a	Clusivity[subj]=Ex|Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	0	root	_	A1.EXCL-come
 3	,	,	PUNCT	punct	_	6	punct	_	_
 4	kyrĩngue'i	kyringue	NOUN	n	_	6	nsubj	_	children-=DIM
@@ -260,7 +260,7 @@
 
 # sent_id = 21
 # text = Upei roñea'ã ju romba'apo mi jevy roñoty peicha , ka'aguy opa ma ramo .
-1	Upei	upei	ADV	discprt	_	2	advmod	_	afterwards
+1	Upei	upei	PART	discprt	_	2	advmod	_	afterwards
 2	roñea'ã	ñea'ã	VERB	vd:a	Clusivity[subj]=Ex|Mood=Ind|Person[subj]=1|Subcat=IntInd|VerbForm=Fin	0	root	_	A1.EXCL-make.efforts
 3	ju	ju	PART	focprt	_	2	advmod	_	REPET
 4	romba'apo	mba'eapo	VERB	vt	Clusivity[subj]=Ex|Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	2	ccomp	_	A1.EXCL-thing-do
@@ -294,7 +294,7 @@
 8	upe	upe	PRON	dem	PronType=Dem	10	obl	_	DEM
 9	ronguare	ronguare	SCONJ	nmlzer	_	8	mark	_	NMLZ.PAST
 10	ou	u	VERB	vi:a	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	2	conj	_	A3-come
-11	kuri	kuri	ADV	temprt	_	10	advmod	_	CUR
+11	kuri	kuri	PART	temprt	_	10	advmod	_	CUR
 12	peteĩ	peteĩ	NUM	num	NumType=Card	13	nummod	_	one
 13	jurua	jurua	NOUN	n	_	10	nsubj	_	non.indigenous
 14	kuery	kuery	PART	quantprt	_	13	clf	_	COL
@@ -306,7 +306,7 @@
 20	ara	ara	NOUN	n	_	18	obl	_	day
 21	py	py	ADP	post	_	20	case	_	in
 22	ovaẽ	vaẽ	VERB	vi:a	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	2	conj	_	A3-arrive
-23	kuri	kuri	ADV	temprt	_	22	advmod	_	CUR
+23	kuri	kuri	PART	temprt	_	22	advmod	_	CUR
 24	ko'ape	ko'ape	ADV	mod	_	22	advmod	_	here
 25	.	.	PUNCT	punct	_	22	punct	_	_
 
@@ -314,7 +314,7 @@
 # text = Upea ou kuri ore ka'aguy , ore ka'aguyrã'i kirami'i ome'ẽ aguã , kirami'i ome'ẽ aguã ore roma'etỹ'i aguã , oremba'e'i , ha'e py .
 1	Upea	upea	PRON	dem	PronType=Dem	2	nsubj	_	DEM
 2	ou	u	VERB	vi:a	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	A3-come
-3	kuri	kuri	ADV	temprt	_	2	advmod	_	CUR
+3	kuri	kuri	PART	temprt	_	2	advmod	_	CUR
 4	ore	ore	PRON	pro	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	5	nmod	_	1.EXCL
 5	ka'aguy	ka'aguy	NOUN	n	_	9	reparandum	_	forest
 6	,	,	PUNCT	punct	_	9	punct	_	_
@@ -397,7 +397,7 @@
 # sent_id = 29
 # text = Ha upei ko'agã katu opa oregui upea .
 1	Ha	ha	CCONJ	coordconn	_	5	cc	_	and
-2	upei	upei	ADV	discprt	_	5	advmod	_	afterwards
+2	upei	upei	PART	discprt	_	5	advmod	_	afterwards
 3	ko'agã	ko'agã	ADV	mod	_	5	advmod	_	now
 4	katu	katu	PART	intprt	_	3	advmod	_	INT
 5	opa	pa	VERB	vi:a	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	A3-finish
@@ -413,7 +413,7 @@
 4	ma	ma	PART	aspprt	_	2	advmod	_	ASP
 5	,	,	PUNCT	punct	_	6	punct	_	_
 6	ou	u	VERB	vi:a	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	A3-come
-7	kuri	kuri	ADV	temprt	_	6	advmod	_	CUR
+7	kuri	kuri	PART	temprt	_	6	advmod	_	CUR
 8	cheñora	cheñora	NOUN	n	_	6	nsubj	_	lady
 9	,	,	PUNCT	punct	_	13	punct	_	_
 10	Patricia	Patricia	PROPN	nprop	_	13	nsubj	_	Patricia
@@ -425,7 +425,7 @@
 # sent_id = 31
 # text = Upea kuri ou orepytyvõ'i .
 1	Upea	upea	PRON	dem	PronType=Dem	3	nsubj	_	DEM
-2	kuri	kuri	ADV	temprt	_	3	advmod	_	CUR
+2	kuri	kuri	PART	temprt	_	3	advmod	_	CUR
 3	ou	u	VERB	vi:a	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	A3-come
 4	orepytyvõ'i	pytyvõ	VERB	vt	Clusivity[obj]=Ex|Mood=Ind|Person[obj]=1|Subcat=Tran|VerbForm=Fin	3	compound:svc	_	B1.EXCL-help-=DIM
 5	.	.	PUNCT	punct	_	3	punct	_	_
@@ -467,7 +467,7 @@
 2	cheremiarirõ'i	emiarirõ	NOUN	n	Number[psor]=Sing	4	nsubj	_	B1.SG-R-grand.child-=DIM
 3	kuery	kuery	PART	quantprt	_	2	clf	_	COL
 4	oja	ja	VERB	vi:a	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	A3-be.born
-5	ramo'i	ramo	ADV	temprt	_	4	advmod	_	recently-=DIM
+5	ramo'i	ramo	PART	temprt	_	4	advmod	_	recently-=DIM
 6	va'e	va'e	SCONJ	rel	_	4	mark	_	REL
 7	pe	pe	ADP	post	_	4	case	_	DAT
 8	guarã	gua	SCONJ	nmlzer	_	4	mark	_	NMLZ-FUT
@@ -564,12 +564,12 @@
 12	mi	mi	PART	intprt	_	11	advmod	_	DIM
 13	ma	ma	PART	aspprt	_	11	advmod	_	ASP
 14	rire	rire	SCONJ	subordconn	_	11	mark	_	after
-15	jepe	jepe	ADV	discprt	_	11	advmod	_	CONC
+15	jepe	jepe	PART	discprt	_	11	advmod	_	CONC
 16	cheremiarirõ'i	emiarirõ	NOUN	n	Number[psor]=Sing	18	nsubj	_	B1.SG-R-grand.child-=DIM
 17	kuery	kuery	PART	quantprt	_	16	clf	_	COL
 18	oja	ja	VERB	vi:a	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	1	advcl	_	A3-be.born
-19	ramo	ramo	ADV	temprt	_	18	advmod	_	recently
-20	ramo'i	ramo	ADV	temprt	_	19	flat	_	recently-=DIM
+19	ramo	ramo	PART	temprt	_	18	advmod	_	recently
+20	ramo'i	ramo	PART	temprt	_	19	flat	_	recently-=DIM
 21	va'e	va'e	SCONJ	rel	_	18	mark	_	REL
 22	pe	pe	ADP	post	_	18	case	_	DAT
 23	guarã	gua	SCONJ	nmlzer	_	18	mark	_	NMLZ-FUT
@@ -663,7 +663,7 @@
 2	chee	chee	PRON	pro	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	1.SG
 3	peicha	upeicha	ADV	dem	_	9	advmod	_	DEM
 4	vy	vy	SCONJ	subordconn	_	3	mark	_	SS
-5	mavoi	mavoi	ADV	temprt	_	9	advmod	_	previously
+5	mavoi	mavoi	PART	temprt	_	9	advmod	_	previously
 6	py	py	ADP	post	_	5	case	_	in
 7	ichupe	ichupe	PRON	pro	Person=3|PronType=Prs	9	obl	_	3.DAT
 8	kuera	kuera	PART	quantprt	_	7	clf	_	COL
@@ -1097,7 +1097,7 @@
 # text = " Ha upei agã te tiempo jave a ramive , mondo ipukuve ovy-ovy a ramive , jaecha arã iguarani e'ỹ rei'i va'e ", he'i va'ekue cheru .
 1	"	"	PUNCT	punct	_	17	punct	_	_
 2	Ha	ha	CCONJ	coordconn	_	17	cc	_	and
-3	upei	upei	ADV	discprt	_	17	advmod	_	afterwards
+3	upei	upei	PART	discprt	_	17	advmod	_	afterwards
 4	agã	agã	ADV	mod	_	17	advmod	_	today
 5	te	te	PART	intprt	_	4	advmod	_	really
 6	tiempo	tiempo	NOUN	n	_	17	advcl	_	time
@@ -1211,7 +1211,7 @@
 5	aỹ	aỹ	ADV	mod	_	6	advmod	_	now
 6	jareko	riko	VERB	vt	Clusivity[subj]=In|Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	A1.INCL-COM-live,be
 7	ha'e	ha'e	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	6	parataxis	_	A1SG.say
-8	jepi	jepi	ADV	aspprt	_	7	advmod	_	ITER
+8	jepi	jepi	PART	aspprt	_	7	advmod	_	ITER
 9	ichupe	ichupe	PRON	pro	Person=3|PronType=Prs	7	obl	_	3.DAT
 10	kuera	kuera	PART	quantprt	_	9	clf	_	COL
 11	ajeve	ajeve	CCONJ	coordconn	_	14	cc	_	furthermore
@@ -1280,15 +1280,15 @@
 4	reko	eko	NOUN	n	_	5	obj	_	R-way.of.life
 5	pereko	riko	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	12	advcl	_	A2.PL-COM-live,be
 6	vy	vy	SCONJ	subordconn	_	5	mark	_	SS
-7	jepe	jepe	ADV	discprt	_	6	fixed	_	CONC
+7	jepe	jepe	PART	discprt	_	6	fixed	_	CONC
 8	,	,	PUNCT	punct	_	5	punct	_	_
 9	opy	opy	NOUN	n	_	12	obl	_	inside.a.house
 10	rupi	upi	ADP	post	_	9	case	_	R-through
-11	ani	ani	ADV	negprt	Polarity=Neg	12	advmod	_	NEG
+11	ani	ani	PART	negprt	_	12	advmod	_	NEG
 12	penderecharãi	echarãi	VERB	vd:i	Mood=Ind|Person[subj]=2|Subcat=IntInd|VerbForm=Fin	0	root	_	B2.PL-R-forget
 13	,	,	PUNCT	punct	_	14	punct	_	_
 14	ha'e	ha'e	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	12	parataxis	_	A1SG.say
-15	jepi	jepi	ADV	aspprt	_	14	advmod	_	ITER
+15	jepi	jepi	PART	aspprt	_	14	advmod	_	ITER
 16	pendevy	pendevy	PRON	pro	Number=Plur|Person=2|PronType=Prs	14	obl	_	B2.PL-DAT
 17	.	.	PUNCT	punct	_	14	punct	_	_
 
@@ -1567,7 +1567,7 @@
 11	pecha	upecha	ADV	dem	_	12	advmod	_	DEM
 12	ñandeayvu	ñandeayvu	VERB	vi:i	Clusivity[subj]=In|Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	17	advcl	_	B1.INCL-speak
 13	rã	rã	SCONJ	subordconn	_	12	mark	_	ADVLZER
-14	jepe	jepe	ADV	discprt	_	12	advmod	_	CONC
+14	jepe	jepe	PART	discprt	_	12	advmod	_	CONC
 15	,	,	PUNCT	punct	_	12	punct	_	_
 16	tove	tove	PART	illocprt	_	17	advmod	_	OPT
 17	tojapouka	apouka	VERB	vd	Mood=Des|Person[subj]=3|Subcat=Ditran|VerbForm=Fin	0	root	_	OPT-A3-B3-do-CAUS
@@ -1584,7 +1584,7 @@
 28	,	,	PUNCT	punct	_	29	punct	_	_
 29	kyrĩgue'i	kyrĩ	NOUN	n	Number=Plur	17	obl	_	child-PL-=DIM
 30	oja	ja	VERB	vi:a	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	29	acl	_	A3-be.born
-31	ramo'i	ramo	ADV	temprt	_	30	advmod	_	recently-=DIM
+31	ramo'i	ramo	PART	temprt	_	30	advmod	_	recently-=DIM
 32	va'e	va'e	SCONJ	rel	_	30	mark	_	REL
 33	pe	pe	ADP	post	_	30	case	_	DAT
 34	guarã	gua	SCONJ	nmlzer	_	30	mark	_	NMLZ-FUT

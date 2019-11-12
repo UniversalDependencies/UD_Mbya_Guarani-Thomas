@@ -22,17 +22,30 @@ Special thanks are due to Paulina Kerechu Núñez Romero for allowing us to use 
 
 * Kim Gerdes, 2013. Collaborative dependency annotation. In Journal Proceedings of the second international conference on dependency linguistics (DepLing 2013), 88-97.
 
+
+# Changelog
+
+* 2019-06-07 v2.4
+  * Corrected dependencies in GUN001R030I001 (sent 988-1006)
+  * Updated annotation guidelines on [gpythomas.com/Mbya_Treebank_Guidelines.pdf](https://www.gpythomas.com/Mbya_Treebank_Guidelines.pdf)
+  * Revised xpos annotation of adjectives and adverbs (see revised annotation guidelines)
+  * Fixed feature annotation of pronouns
+  * Corrected bugs identified in udapi tools
+
+* 2019-05-15 v2.4
+  * Initial release in Universal Dependencies.
+
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.4
-License: CC BY-SA 4.0
+License: CC BY-NC-SA 4.0
 Includes text: yes
 Genre: nonfiction
 Lemmas: automatic
-UPOS: converted from manual
+UPOS: automatic with corrections
 XPOS: manual native
-Features: converted from manual
-Relations: manual native
+Features: converted with corrections
+Relations: automatic with corrections
 Contributors: Thomas, Guillaume
 Contributing: elsewhere
 Contact: guillaume.thomas@utoronto.ca

@@ -26,7 +26,7 @@ Special thanks are due to Paulina Kerechu Núñez Romero for allowing us to use 
 # Changelog
 
 * 2021-05-15 v2.8
-  * Subcat=Int,Ditran changed to Subcat=Intr,Ditr following the global UD documentation.
+  * Subcat=Int,Ditran,IntInd changed to Subcat=Intr,Ditr,Indir following the global UD documentation.
 
 * 2019-06-07 v2.4
   * Corrected dependencies in GUN001R030I001 (sent 988-1006)

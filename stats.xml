@@ -63,9 +63,9 @@
     <feat name="PronType" value="Int" upos="DET,PRON">12</feat><!-- mba'e, Mava'e -->
     <feat name="PronType" value="Prs" upos="PRON">78</feat><!-- ore, chee, ha'e, ichupe, ñande, che, ñandevy, ndee, pende, pendevy -->
     <feat name="PronType" value="Tot" upos="DET,PRON">4</feat><!-- pavẽ, javive, opa -->
-    <feat name="Subcat" value="Ditran" upos="VERB">4</feat><!-- ome'ẽ, tojapouka -->
-    <feat name="Subcat" value="Int" upos="VERB">110</feat><!-- oiko, opa, ou, cheayvu, roju, romba'apo, ndaipovei, oñevanga, roiko, aa -->
+    <feat name="Subcat" value="Ditr" upos="VERB">4</feat><!-- ome'ẽ, tojapouka -->
     <feat name="Subcat" value="IntInd" upos="VERB">7</feat><!-- roñea'ã, jaje'apa, oña'ã, penderecharãi, ñeñandu -->
+    <feat name="Subcat" value="Intr" upos="VERB">110</feat><!-- oiko, opa, ou, cheayvu, roju, romba'apo, ndaipovei, oñevanga, roiko, aa -->
     <feat name="Subcat" value="Tran" upos="VERB">125</feat><!-- ha'e, he'i, rojapo, roñoty, aipota, ajapo, areko, ho'u, jaecha, ndoro'ui -->
     <feat name="VerbForm" value="Fin" upos="VERB">211</feat><!-- oiko, opa, ou, cheayvu, roju, romba'apo, oñevanga, roiko, rojapo, roñoty -->
     <feat name="VerbForm" value="Inf" upos="VERB">34</feat><!-- ha'e, he'i, ndaipovei, aa, kyri'ĩ, aipoa'e, ha'e'i, ja'e, marã, ndaa'ei -->

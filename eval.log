@@ -1,11 +1,11 @@
-Running the following version of tools/evaluate_treebank.pl:
-commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
+Running the following version of UD tools:
+commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Apr 21 19:02:58 2018 +0200
+Date:   Thu May 6 20:16:19 2021 +0200
 Evaluating the following revision of UD_Mbya_Guarani-Thomas:
-commit 5a2c2cf97ec57acc62fe168169c620d6b5bc74ce
+commit 2b0abbce3c9e32153a8c0518858acafec6e4002d
+Merge: 5e92e75 2ab700c
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 10 18:27:02 2020 +0200
 Size: counted 1318 of 1318 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.552230872160631.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,6 +19,8 @@ Features: 442 out of 1318 total words have one or more features.
 Features: source of annotation (from README) factor is 0.9.
 Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.1.
+Udapi:
+               TOTAL          0
 Udapi: found 0 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 1318 words.
 Genres: found 1 out of 17 known.

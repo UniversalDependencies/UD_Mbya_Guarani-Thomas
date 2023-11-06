@@ -74,7 +74,7 @@
     <feat name="VerbForm" value="Vnoun" upos="VERB">1</feat><!-- ka'aguy -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="34">
+  <deps unique="35">
     <dep name="acl">10</dep>
     <dep name="advcl">46</dep>
     <dep name="advmod">72</dep>
@@ -93,7 +93,8 @@
     <dep name="discourse">4</dep>
     <dep name="dislocated">11</dep>
     <dep name="dislocated:cleft">3</dep>
-    <dep name="fixed">4</dep>
+    <dep name="fixed">2</dep>
+    <dep name="flat">2</dep>
     <dep name="list">2</dep>
     <dep name="mark">130</dep>
     <dep name="nmod">20</dep>

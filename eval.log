@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Mbya_Guarani-Thomas:
-commit e27c732f877eeeb07848d3fa2d1f8939f2fe5f22
+commit 406a9ac8d7647210c1b34c54eb6b741406d7aab5
+Merge: da39543 714842a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 14 11:53:37 2022 +0100
 Size: counted 1318 of 1318 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.552230872160631.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -17,7 +17,7 @@ Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.1.
 Features: 442 out of 1318 total words have one or more features.
 Features: source of annotation (from README) factor is 0.9.
-Universal relations: 30 out of 37 found in the corpus.
+Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.1.
 Udapi:
                TOTAL          0
@@ -34,7 +34,7 @@ Validity: 1
 (weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.0882352941176471) = 0.00678733031674208
 (weight=0.307692307692308) * (score{udapi}=1) = 0.307692307692308
-(weight=0.0769230769230769) * (score{udeprels}=0.0810810810810811) = 0.00623700623700624
-(TOTAL score=0.401388147385251) * (availability=1) * (validity=1) = 0.401388147385251
+(weight=0.0769230769230769) * (score{udeprels}=0.0837837837837838) = 0.00644490644490645
+(TOTAL score=0.401596047593151) * (availability=1) * (validity=1) = 0.401596047593151
 STARS = 2
-UD_Mbya_Guarani-Thomas	0.401388147385251	2
+UD_Mbya_Guarani-Thomas	0.401596047593151	2

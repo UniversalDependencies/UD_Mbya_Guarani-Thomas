@@ -43,6 +43,7 @@ Special thanks are due to Paulina Kerechu Núñez Romero for allowing us to use 
 Data available since: UD v2.4
 License: CC BY-NC-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: nonfiction
 Lemmas: automatic
 UPOS: automatic with corrections

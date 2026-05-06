@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Mbya_Guarani-Thomas:
-commit f0bb13d6e3228c4900d8b5e581908a1ace84e4c4
-Merge: d799dc7 2c4eafd
+commit 5661d701e9bdafcb02f36ac4205c528ba6458f32
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:17:08 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'gun_thomas'
 Language code (from CoNLL-U file name) = 'gun'
@@ -25,13 +25,13 @@ Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang gun --max-err=10 UD_Mbya_Guarani-Thomas/gun_thomas-ud-test.conllu
-[Line 930 Sent 59]: [L3 Syntax leaf-det] 'det' not expected to have children (1:Ha'e:det --> 2:javive:amod)
-[Line 1297 Sent 76]: [L3 Warning fixed-without-extpos] Fixed expression 'ajeve rã' does not have the 'ExtPos' feature
-[Line 1364 Sent 78]: [L3 Warning fixed-without-extpos] Fixed expression 'vy jepe' does not have the 'ExtPos' feature
-[Line 1398 Sent 80]: [L3 Syntax leaf-det] 'det' not expected to have children (1:Mava'e:det --> 2:nda'u:dep)
-[Line 1623 Sent 95]: [L3 Syntax leaf-det] 'det' not expected to have children (1:Ha'e:det --> 2:pavẽ:amod)
-Syntax errors: 3
+[Line 930 Sent 59]: [L3 SYNTAX leaf-det] 'det' not expected to have children (1:Ha'e:det --> 2:javive:amod)
+[Line 1297 Sent 76]: [L3 WARNING fixed-without-extpos] Fixed expression 'ajeve rã' does not have the 'ExtPos' feature
+[Line 1364 Sent 78]: [L3 WARNING fixed-without-extpos] Fixed expression 'vy jepe' does not have the 'ExtPos' feature
+[Line 1398 Sent 80]: [L3 SYNTAX leaf-det] 'det' not expected to have children (1:Mava'e:det --> 2:nda'u:dep)
+[Line 1623 Sent 95]: [L3 SYNTAX leaf-det] 'det' not expected to have children (1:Ha'e:det --> 2:pavẽ:amod)
 Warnings: 2
+SYNTAX errors: 3
 *** FAILED *** with 3 errors
 Exit code: 1
 Validity: 0.01

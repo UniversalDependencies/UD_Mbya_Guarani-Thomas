@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Mbya_Guarani-Thomas:
-commit 5661d701e9bdafcb02f36ac4205c528ba6458f32
+commit ca19199e7666b5fa4a85d8ee11b1c8b9b0128e70
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 20:17:08 2025 +0100
+Date:   Wed May 6 13:19:48 2026 +0200
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'gun_thomas'
 Language code (from CoNLL-U file name) = 'gun'

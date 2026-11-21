@@ -24,6 +24,8 @@ Special thanks are due to Paulina Kerechu Núñez Romero for allowing us to use 
 
 
 # Changelog
+* 2026-11-21 v2.20
+  * Moved bare interlinear glosses in MISC to the MGloss attribute
 
 * 2021-05-15 v2.8
   * Subcat=Int,Ditran,IntInd changed to Subcat=Intr,Ditr,Indir following the global UD documentation.
